@@ -61,10 +61,11 @@
 .footer-container{
     display: flex;
     bottom: 0px;
-    width: 100%;
-    margin-top: 3%;
+    width: 80%;
+    margin: auto;
+    /* margin-top: 3%;
     margin-right: 7%;
-    margin-left: 7%;
+    margin-left: 7%; */
     border: var(--measure);
     height: 250px;
 }
@@ -109,6 +110,13 @@ small{
     border: var(--measure);
     text-align: center;
 }
+
+.bottom-mentions {
+    margin: 60px auto;
+    text-align: start;
+    font-size: 10px;
+}
+
 /*--------------------------------------------------------------------------------------------------------------------------------- */
 /* Below 1420 Screen Size */
 /*--------------------------------------------------------------------------------------------------------------------------------- */
@@ -147,10 +155,6 @@ small{
         margin-right: 10%;
     }
     
-    .bottom-mentions {
-        text-align: center;
-        font-size: 8px;
-    }
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------- */
@@ -186,13 +190,13 @@ small{
     }
     
     .bottom-mentions {
+        margin-right: 25%;
         text-align: center;
-        position: relative;
-        font-size: 8px;
+        font-size: 6px;
         display: flex;
         flex-direction: column;
-        margin-top: 360px;
-        margin-right: 10%;
+        margin-top: 400px;
+        
     }
 
     .column-one{

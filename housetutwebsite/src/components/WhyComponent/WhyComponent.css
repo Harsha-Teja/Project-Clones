@@ -1,0 +1,80 @@
+/*  classnames
+cards-whyht
+cards-whyht-title
+cards-rows
+cards-whyht-rowone
+cards-whyht-rowone-card
+cards-whyht-row-cardicon
+cards-whyht-row-cardtitle
+cards-whyht-row-cardtext
+cards-whyht-rowtwo
+cards-whyht-rowtwo-card
+ */
+
+ .cards-whyht{
+    border: var(--measure);
+    width: 80%;
+    margin: 30px auto;
+ }
+
+ .cards-whyht-title{
+    border: var(--measure);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+ }
+
+ .cards-rows{
+    border: var(--measure);
+    display: flex;
+    flex-direction: row;
+    margin-left: 25%;
+ }
+
+ .cards-whyht-rowone{
+    border: var(--measure);
+    margin: 20px; 
+ }
+
+ .cards-whyht-rowone-card{
+    border: var(--measure);
+    width: 250px;
+    margin-bottom: 25px;
+    padding: 25px;
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    box-shadow: 24px 18px 11px -5px rgba(0,0,0,0.6);
+ } 
+
+ .cards-whyht-row-cardicon{
+    border: var(--measure);
+    font-size: 60px;
+    margin-left: 32%;
+ }
+
+.cards-whyht-row-cardtitle{
+    border: var(--measure);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cards-whyht-row-cardtext{
+    border: var(--measure);
+    font-size: 12px;
+}
+
+ .cards-whyht-rowtwo{
+    border: var(--measure);
+    margin: 20px; 
+}
+
+ .cards-whyht-rowtwo-card{
+    border: var(--measure);
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    width: 250px;
+    margin-bottom: 25px;
+    padding: 25px;
+    box-shadow: 24px 18px 11px -5px rgba(0,0,0,0.6);
+ } 

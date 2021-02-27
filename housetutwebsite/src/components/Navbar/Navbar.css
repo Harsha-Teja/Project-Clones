@@ -147,7 +147,7 @@ li {
         border: var(--measure);
     }
 
-    .navbar .nav-links{
+        .navbar .nav-links{
         position: absolute;
         display: block;
         top: 0;

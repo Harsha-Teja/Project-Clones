@@ -47,12 +47,13 @@ function Footer (){
                     <i class="fab fa-youtube icons"/>
                     <i class="fab fa-facebook-square icons"/>
                 </div>
+                
             </div>
             {/* Copyrights Row */}
             {/* <hr/> */}
             <div className="bottom-mentions">
-                <small >Copyrights 2021@HouseTutoring</small>
-                <small >Made with 🤝 🔀 👨‍💻 by <strong>Teacherr</strong></small>
+                    <small >Copyrights 2021@HouseTutoring</small>
+                    <small >Made with 🤝 🔀 👨‍💻 by <strong>Teacherr</strong></small>
             </div>
         </>
     )
