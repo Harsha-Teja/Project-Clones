@@ -1,0 +1,207 @@
+/* classes 
+    footer-container
+    column-one
+    column-two
+    column-three
+    column-four
+    footer-title
+    col-text
+    col-text-four
+    footer-logo
+    icons
+    bottom-mentions
+*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+/* Above 1430 Screen Size */
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.footer-logo {
+    width: 120px;
+    height: 120px;
+    border: var(--measure);
+    font-size: 100px;
+}
+
+.footer-logo img {
+    width: 100%;
+    height: auto;
+}
+
+.footer-title {
+    text-transform: uppercase;
+    border: var(--measure);
+    margin-bottom: 30px;
+}
+
+.footer-container ul li {
+    margin-bottom: 10px;
+    border: var(--measure);
+}
+
+.col-text{
+    color: var(--primary-color);
+    border: var(--measure);
+}
+
+.col-text-four{
+    margin-bottom: 5px;
+    color: var(--primary-color);
+    border: var(--measure);
+}
+
+.icons{
+    border: var(--measure);
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.footer-container{
+    display: flex;
+    bottom: 0px;
+    width: 100%;
+    margin-top: 3%;
+    margin-right: 7%;
+    margin-left: 7%;
+    border: var(--measure);
+    height: 250px;
+}
+
+.column-one{
+    /* width: 100%; */
+    max-width: 400px;
+    margin-left: 30px;
+    margin-right: 50px;
+    border: var(--measure);
+}
+
+.column-two{
+    width: 100%;
+    max-width: 200px;
+    margin-left: 30px;
+    margin-right: 50px;
+    text-align: center;
+    border: var(--measure);
+}
+
+.column-three{
+    width: 100%;
+    max-width: 200px;
+    margin-left: 30px;
+    margin-right: 50px;
+    text-align: center;
+    border: var(--measure);
+}
+
+.column-four{
+    width: 100%;
+    max-width: 500px;
+    margin-left: 30px;
+    text-align: center;
+    margin-right: 50px;
+    border: var(--measure);
+}
+
+small{
+    margin-left: 20%;
+    border: var(--measure);
+    text-align: center;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+/* Below 1420 Screen Size */
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+@media all and (max-width: 1420px) {
+    .column-four{
+        margin-right: 10%;
+    }
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+/* Below 1330 Screen Size */
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+@media all and (max-width: 1330px) {
+    
+    .footer-title {
+        font-size: 10px;
+    }
+    
+    .col-text{
+        margin-bottom: 8px;
+        font-size: 9px;
+    }
+    
+    .col-text-four{
+        margin-bottom: 8px;
+        font-size: 9px;
+    }
+    
+    .icons{
+        margin-right: 10px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .column-four{
+        margin-right: 10%;
+    }
+    
+    .bottom-mentions {
+        text-align: center;
+        font-size: 8px;
+    }
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+/* Below 660 Screen Size */
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+@media all and (max-width: 660px) {
+    .footer-container {
+        display: flex;   
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-title {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    
+    
+    .col-text{
+        margin-bottom: 8px;
+        font-size: 9px;
+    }
+    
+    .col-text-four{
+        margin-bottom: 8px;
+        font-size: 9px;
+    }
+    
+    .icons{
+        margin-right: 10px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    
+    .bottom-mentions {
+        text-align: center;
+        position: relative;
+        font-size: 8px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 360px;
+        margin-right: 10%;
+    }
+
+    .column-one{
+        text-align: center;
+    }
+
+    .column-four{
+        max-width: 320px;
+        margin-right: 60px;
+    }
+
+}

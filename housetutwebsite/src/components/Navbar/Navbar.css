@@ -1,0 +1,174 @@
+*{
+    --measure: solid 1px magenta;
+    --primary-color: green;
+    --secondary-color: orange;
+    --background-color: grey;
+    --primary-font: sans-serif;
+    --font-size-title: 16px;
+    --font-size-other: 12px;
+}
+
+/* Classes
+    navbar
+    logo
+    nav-links
+    button
+    button-text
+    burger
+
+*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+/* Above 1430 Screen Size */
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+
+li {
+    list-style-type: none;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    border: var(--measure);
+    background-color: var(--background-color);
+}
+
+.navbar .logo{
+    margin-left: 7%;
+    width: 180px;
+    height: 180px;
+    border: var(--measure);
+
+}
+
+.navbar .button-text{
+    border: 2px solid white;
+    width: 100%;
+    max-width: 300px;
+    margin-left: 0px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: var(--background-color) ;
+    border: 2px solid var(--primary-color);
+    cursor: pointer;
+}
+
+.navbar .button-text:hover{
+    background-color:white ;
+}
+
+.button-text{
+    text-decoration: none;
+    color: var(--primary-color);
+}   
+
+.navbar .nav-links{
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    border: var(--measure);
+}
+
+.navbar .nav-links .nav-link{
+    font-size: var(--font-size-title);
+    font-weight: 700;
+    border: var(--measure);
+    text-transform: uppercase;
+}
+
+.navbar .nav-links .nav-link:hover{
+    border-bottom: 2px solid var(--primary-color);
+    transition: 0.2s ease-in-out;
+}
+
+.navbar .burger{
+    font-size: 30px;
+    display: none;
+    border: var(--measure);
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+/* Below 1435 Screen Size */
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+@media all and (max-width: 1435px){
+
+    .navbar {
+        max-height: 12vh;
+        align-items: center;
+        border: var(--measure);
+    }
+
+    .navbar .logo{
+        margin-left: 2%;
+        width: 130px;
+        height: 130px;
+        border: var(--measure);
+    
+    }
+
+    .navbar .button{
+        border: var(--measure);
+        margin-left: 10%;
+        padding: 5px;
+        background-color: var(--background-color);
+        text-align: center;
+    }
+    
+    .navbar .nav-links{
+        margin-right: 5%;
+        width: 70%;
+        border: var(--measure);
+    }
+    
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+/* For mobile version: screen size below 945 */
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+@media all and (max-width: 945px){
+/*     
+    .navbar .logo{
+        margin-left: 0px;
+    } */
+
+    .navbar .burger{
+        display: block;
+        margin-right: 10%;
+        cursor: pointer;
+        border: var(--measure);
+    }
+
+    .navbar .nav-links{
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        background: var(--primary-color);
+        padding: 40px;
+        width: 70%;
+        transform: translate(-800px);
+        transition: 0.2s linear;
+        border: var(--measure);
+        z-index: 1000;
+    }
+
+    .navbar .nav-links li {
+        padding: 15px;
+        border-bottom: 1px solid #fff;
+        border: var(--measure);
+    }
+
+    .navbar .button{
+        margin-top: 100px;
+    }
+}
