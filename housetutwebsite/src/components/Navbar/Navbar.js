@@ -13,22 +13,22 @@ function Navbar () {
                <img src={HouseTutoring} alt="Housetutoring logo" className="logo"/>
                <ul className="nav-links" style={{transform: isOpen ? "translateX(0px)" : ""}}>
                     <li>
-                    <Link path="/home" className="nav-link" onClick={() => setIsOpen(false)}>
+                    <Link to="/" className="nav-link" onClick={() => setIsOpen(false)}>
                         Home
                     </Link>
                     </li>
                     <li>
-                    <Link path="/findmetutor" className="nav-link" onClick={() => setIsOpen(false)}>
+                    <Link to="/findmetutor" className="nav-link" onClick={() => setIsOpen(false)}>
                         Find me Tutor
                     </Link>
                     </li>
                     <li>
-                    <Link path="/becometutor" className="nav-link" onClick={() => setIsOpen(false)}>
+                    <Link to="/becometutor" className="nav-link" onClick={() => setIsOpen(false)}>
                         Become Tutor
                     </Link>
                     </li>
                     <li>
-                    <Link path="aboutus" className="nav-link" onClick={() => setIsOpen(false)}>
+                    <Link to="aboutus" className="nav-link" onClick={() => setIsOpen(false)}>
                         About Us
                     </Link>
                     </li>
