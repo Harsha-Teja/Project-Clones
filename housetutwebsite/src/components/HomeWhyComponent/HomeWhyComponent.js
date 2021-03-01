@@ -1,7 +1,7 @@
 import React from "react"
-import "./WhyComponent.css"
+import "./HomeWhyComponent.css"
 
-function WhyComponent () {
+function HomeWhyComponent () {
     return (
         <div className="cards-whyht">
             <div className="cards-whyht-title">
@@ -42,4 +42,4 @@ function WhyComponent () {
     )
 }
 
-export default WhyComponent
+export default HomeWhyComponent

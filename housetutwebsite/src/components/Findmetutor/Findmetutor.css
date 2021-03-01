@@ -7,54 +7,57 @@
     findmetutors-card-text
     */
 
-.card-img {
-    width: 160px;
-    height: 160px;
-    border: var(--measure);
-    margin-left: 9px;
-}
-
-.findmetutors-container{
-    border: var(--measure);
-    width: 80%;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: grid;
-}
-
-.findmetutors-title{
-    border: var(--measure);
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.findmetutors-card{
-    border: var(--measure);
-    border-radius: 20px;
-    width: 200px;
-    padding: 10px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 10px;
-    background: cornsilk;
-}
-
-.findmetutors-card-img{
-    border: var(--measure);
+    .card-img {
+        width: 160px;
+        height: 160px;
+        border: var(--measure);
+        margin-left: 9px;
+    }
     
-}
-
-.findmetutors-card-title{
-    border: var(--measure);
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.findmetutors-card-text{
-    border: var(--measure);
-    font-size: 10px;
-}
+    .findmetutors-container{
+        border: var(--measure);
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    
+    .findmetutors-title{
+        border: var(--measure);
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .findmetutors-card{
+        border: var(--measure);
+        border-radius: 20px;
+        width: 200px;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: 40px;
+        background: rgba(0,0,0,0.05);
+        cursor: pointer;
+        box-shadow: 24px 18px 11px -5px rgba(0,0,0,0.6);
+    }
+    
+    .findmetutors-card-img{
+        border: var(--measure);
+        
+    }
+    
+    .findmetutors-card-title{
+        border: var(--measure);
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .findmetutors-card-text{
+        border: var(--measure);
+        font-size: 10px;
+    }

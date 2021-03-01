@@ -1,0 +1,46 @@
+/* classes
+    oursupports
+    oursupportstitle
+    supportimg
+*/
+
+.supportimg{
+    border: var(--measure);
+    width: 160px;
+    height: 70px;
+    background: rgba(0, 0, 0, 0.01);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.oursupports{
+    border: var(--measure);
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+    background: rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+}
+
+.oursupportstitle{
+    border: var(--measure);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.oursupportslogos{
+    border: var(--measure);
+    display: flex;
+}
+
+.oursupportslogo{
+    border: var(--measure);
+    margin-left: 17%;
+}
+
+.oursupportslogo h6 {
+    font-size: 12px;
+    text-align: center;
+}

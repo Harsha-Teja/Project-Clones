@@ -1,0 +1,82 @@
+/* classes
+    tutorprofile-title
+    tutorprofile-cards-container
+    tutorprofile-card
+    tutorprofile-card-imgcontainer
+    tutorprofile-card-img
+    tutorprofile-card-title-subject
+    tutorprofile-card-title-name
+    tutorprofile-card-text
+    tutorprofile-listnames
+ */
+
+.tutorprofile-title{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: var(--measure);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+ }
+
+.tutorprofile-cards-container{
+    border: var(--measure);
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+
+.tutorprofile-card{
+     border: 2px solid white;
+     width: 300px;
+     margin-left: 25px;
+     margin-top: 10px;
+     margin-bottom: 20px;
+     margin-right: 15px;
+     background: rgba(0,0,0,0.08);
+     border-radius: 20px;
+     box-shadow: 24px 18px 11px -5px rgba(0,0,0,0.6);
+ }
+
+.tutorprofile-card-img{
+    border: var(--measure);
+    width: 250px;
+    height: 250px;
+    margin-left: 23px;
+}
+
+.tutorprofile-card-imgcontainer{
+    border: var(--measure);
+ }
+
+.tutorprofile-card-title-name{
+    border: var(--measure);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.tutorprofile-card-title-subject{
+    border: var(--measure);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.tutorprofile-card-text{    
+    border: var(--measure);
+    margin-bottom: 20px;
+}
+
+.tutorprofile-listnames{
+    border: var(--measure);
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.tutorprofile-listnames .icons{
+    font-size: 15px;
+    margin-right: 10px;
+}

@@ -1,7 +1,8 @@
 import React from "react"
+import {Link} from "react-router-dom";
 import "./Findmetutor.css"
 import Hero from "../HomeHero/Hero"
-import subject from "../../Assets/svg/subject.svg"
+import subject from "../../Assets/svg/SubjectsSvg/subject.svg"
 
 function Findmetutor (){
     return (
@@ -11,7 +12,9 @@ function Findmetutor (){
                                                                           build is not optimized. To create a production build, use npm run\
                                                                         build."}
                                                                         />
-            < Cards />
+            
+                < Cards />
+            
         </div>
     )
 }
@@ -23,101 +26,108 @@ function Cards () {
         <>
         <div className="findmetutors-title"> Subjects </div>
         <div className="findmetutors-container">
-            {/* Card component */}
-            <div className="findmetutors-card">
-                <div className="findmetutors-card-img">
-                    <img src= {subject} alt=" subject " className="card-img"/>
+                {/* Card component 1*/}
+                <Link to="/tutorprofile">
+                <div className="findmetutors-card">
+                    <div className="findmetutors-card-img">
+                        <img src= {subject} alt=" subject " className="card-img"/>
+                    </div>
+                    <div className="findmetutors-card-title">
+                        Science
+                    </div>  
                 </div>
-                <div className="findmetutors-card-title">
-                    Science
+                </Link>    
+                {/* Card component 2*/}
+                <Link to="/tutorprofile">
+                <div className="findmetutors-card">
+                    <div className="findmetutors-card-img">
+                        <img src= {subject} alt=" subject " className="card-img"/>
+                    </div>
+                    <div className="findmetutors-card-title">
+                        Science
+                    </div>  
                 </div>
-                <div className="findmetutors-card-text">
-                    Note that the development build is not optimized.
-                    To create a production build, use npm run build.
-                </div>  
+                </Link>  
+                {/* Card component 3*/}
+                <div className="findmetutors-card">
+                    <div className="findmetutors-card-img">
+                        <img src= {subject} alt=" subject " className="card-img"/>
+                    </div>
+                    <div className="findmetutors-card-title">
+                        Science
+                    </div>  
+                </div>
+                {/* Card component 4*/}
+                <Link to="/tutorprofile">
+                <div className="findmetutors-card">
+                    <div className="findmetutors-card-img">
+                        <img src= {subject} alt=" subject " className="card-img"/>
+                    </div>
+                    <div className="findmetutors-card-title">
+                        Science
+                    </div>  
+                </div>
+                </Link>  
+                {/* Card component 5*/}
+                <Link to="/tutorprofile">
+                <div className="findmetutors-card">
+                    <div className="findmetutors-card-img">
+                        <img src= {subject} alt=" subject " className="card-img"/>
+                    </div>
+                    <div className="findmetutors-card-title">
+                        Science
+                    </div>  
+                </div>
+                </Link>  
+                {/* Card component 6*/}
+                <Link to="/tutorprofile">
+                <div className="findmetutors-card">
+                    <div className="findmetutors-card-img">
+                        <img src= {subject} alt=" subject " className="card-img"/>
+                    </div>
+                    <div className="findmetutors-card-title">
+                        Science
+                    </div>  
+                </div>
+                </Link>  
+                {/* Card component 7*/}
+                <Link to="/tutorprofile">
+                <div className="findmetutors-card">
+                    <div className="findmetutors-card-img">
+                        <img src= {subject} alt=" subject " className="card-img"/>
+                    </div>
+                    <div className="findmetutors-card-title">
+                        Science
+                    </div>  
+                </div>
+                </Link>  
+                {/* Card component 8*/}
+                <Link to="/tutorprofile">
+                <div className="findmetutors-card">
+                    <div className="findmetutors-card-img">
+                        <img src= {subject} alt=" subject " className="card-img"/>
+                    </div>
+                    <div className="findmetutors-card-title">
+                        Science
+                    </div>  
+                </div>
+                </Link>  
             </div>
-            {/*  */}
-            <div className="findmetutors-card">
-                <div className="findmetutors-card-img">
-                    <img src= {subject} alt=" subject " className="card-img"/>
-                </div>
-                <div className="findmetutors-card-title">
-                    Science
-                </div>
-                <div className="findmetutors-card-text">
-                    Note that the development build is not optimized.
-                    To create a production build, use npm run build.
-                </div>  
-            </div>
-            {/*  */}
-            <div className="findmetutors-card">
-                <div className="findmetutors-card-img">
-                    <img src= {subject} alt=" subject " className="card-img"/>
-                </div>
-                <div className="findmetutors-card-title">
-                    Science
-                </div>
-                <div className="findmetutors-card-text">
-                    Note that the development build is not optimized.
-                    To create a production build, use npm run build.
-                </div>  
-            </div>
-            {/*  */}
-            <div className="findmetutors-card">
-                <div className="findmetutors-card-img">
-                    <img src= {subject} alt=" subject " className="card-img"/>
-                </div>
-                <div className="findmetutors-card-title">
-                    Science
-                </div>
-                <div className="findmetutors-card-text">
-                    Note that the development build is not optimized.
-                    To create a production build, use npm run build.
-                </div>  
-            </div>
-            {/*  */}
-            <div className="findmetutors-card">
-                <div className="findmetutors-card-img">
-                    <img src= {subject} alt=" subject " className="card-img"/>
-                </div>
-                <div className="findmetutors-card-title">
-                    Science
-                </div>
-                <div className="findmetutors-card-text">
-                    Note that the development build is not optimized.
-                    To create a production build, use npm run build.
-                </div>  
-            </div>
-            {/*  */}
-            <div className="findmetutors-card">
-                <div className="findmetutors-card-img">
-                    <img src= {subject} alt=" subject " className="card-img"/>
-                </div>
-                <div className="findmetutors-card-title">
-                    Science
-                </div>
-                <div className="findmetutors-card-text">
-                    Note that the development build is not optimized.
-                    To create a production build, use npm run build.
-                </div>  
-            </div>
-            {/*  */}
-            <div className="findmetutors-card">
-                <div className="findmetutors-card-img">
-                    <img src= {subject} alt=" subject " className="card-img"/>
-                </div>
-                <div className="findmetutors-card-title">
-                    Science
-                </div>
-                <div className="findmetutors-card-text">
-                    Note that the development build is not optimized.
-                    To create a production build, use npm run build.
-                </div>  
-            </div>
-
-        </div>
-        
         </>
         
     )
 }
+
+/* Card component Sample
+            // <div className="findmetutors-card">
+            //     <div className="findmetutors-card-img">
+            //         <img src= {subject} alt=" subject " className="card-img"/>
+            //     </div>
+            //     <div className="findmetutors-card-title">
+            //         Science
+            //     </div>
+            //     <div className="findmetutors-card-text">
+            //         Note that the development build is not optimized.
+            //         To create a production build, use npm run build.
+            //     </div>  
+            // </div> */

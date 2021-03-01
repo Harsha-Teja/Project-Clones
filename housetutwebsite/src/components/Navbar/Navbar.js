@@ -28,7 +28,7 @@ function Navbar () {
                     </Link>
                     </li>
                     <li>
-                    <Link to="aboutus" className="nav-link" onClick={() => setIsOpen(false)}>
+                    <Link to="about" className="nav-link" onClick={() => setIsOpen(false)}>
                         About Us
                     </Link>
                     </li>

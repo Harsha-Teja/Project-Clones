@@ -1,0 +1,180 @@
+/* Classes:
+    tutorprofiledetailbg
+    tutorprofiledetail
+    ----------------------------
+    tutorprofiledetailone
+    tutorprofiledetailone1
+    tutorprofiledetailoneimage
+    tutorprofiledetailone1name
+    tutorprofiledetailone1subject
+    tutorprofiledetailone1subjectdiv    
+    tutorprofiledetailone1button
+    ----------------------------
+    tutorprofiledetailsecond
+    tutorprofiledetailsecondhead1
+    tutorprofiledetailsecondtext1
+    tutorprofiledetailsecondhead2
+    tutorprofiledetailsecondtext2
+    tutorprofiledetailsecondhead3
+    tutorprofiledetailsecondtext3
+    tutorprofiledetailsecondhead4
+    tutorprofiledetailsecondtext4
+    tutorprofiledetailsecondhead5
+    tutorprofiledetailsecondtext5
+    -----------------------------
+*/
+
+
+.tutorprofiledetail{
+    border: var(--measure);
+    width: 100%;
+    /* background-color: lightgreen; */
+}
+
+.tutorprofiledetailone{
+    border: var(--measure);
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    background: whitesmoke;
+    border-radius: 20px;
+}
+
+.tutorprofiledetailone1{
+    border: var(--measure);
+    margin: 50px;
+    width: 400px;
+}
+
+.tutorprofiledetailoneimage{
+    border: var(--measure);
+    border-radius: 20px;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 24px 18px 11px -5px rgba(0,0,0,0.6);
+}
+
+.tutorprofiledetailone1name{
+    border: var(--measure);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tutorprofiledetailone1subject{
+    border: var(--measure);
+    display: flex;
+}
+
+.tutorprofiledetailone1subjectdiv{
+    border: 2px solid green;
+    margin-left: 5px;
+    border-radius: 15px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.tutorprofiledetailone1button{
+    border: 2px solid green ;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 125px;
+    margin-top: 39px;
+    background: transparent;
+    cursor: pointer;
+}
+
+/* ------------------------ */
+
+.tutorprofiledetailsecond{
+    border: var(--measure);
+    width: 60%;
+    margin: auto;
+    background: whitesmoke;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+.tutorprofiledetailsecondhead1{
+    border: var(--measure);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: start;
+    color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tutorprofiledetailsecondtext1{
+    border: var(--measure);
+    font-size: 14px;
+}
+
+.tutorprofiledetailsecondhead2{
+    border: var(--measure);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: start;
+    color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tutorprofiledetailsecondtext2{
+    border: var(--measure);
+    font-size: 14px;
+}
+
+.tutorprofiledetailsecondhead3{
+    border: var(--measure);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: start;
+    color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tutorprofiledetailsecondtext3{
+    border: var(--measure);
+    font-size: 14px;
+}
+
+.tutorprofiledetailsecondhead4{
+    border: var(--measure);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: start;
+    color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tutorprofiledetailsecondtext4{
+    border: var(--measure);
+    font-size: 14px;
+}
+
+.tutorprofiledetailsecondhead5{
+    border: var(--measure);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: start;
+    color: green;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.tutorprofiledetailsecondtext5{
+    border: var(--measure);
+    font-size: 14px;
+}
+
+li {
+    margin-bottom: 5px;
+}
