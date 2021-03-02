@@ -49,6 +49,7 @@ function Cards () {
                 </div>
                 </Link>  
                 {/* Card component 3*/}
+                <Link to="/tutorprofile">
                 <div className="findmetutors-card">
                     <div className="findmetutors-card-img">
                         <img src= {subject} alt=" subject " className="card-img"/>
@@ -57,6 +58,7 @@ function Cards () {
                         Science
                     </div>  
                 </div>
+                </Link>
                 {/* Card component 4*/}
                 <Link to="/tutorprofile">
                 <div className="findmetutors-card">

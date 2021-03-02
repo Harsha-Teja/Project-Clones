@@ -33,7 +33,7 @@ function About () {
                 <div className="cards-secondcolumn">
                     <div className="cards-cardscontainer">
                     <div className="cards-container">
-                    <i class="far fa-clipboard cards-cardicon"></i>
+                    <i className="far fa-clipboard cards-cardicon"></i>
                         <div className="cards-cardtitle">
                             1 Profiling
                         </div>
@@ -45,7 +45,7 @@ function About () {
                     </div>
                     <div className="cards-cardscontainer">
                     <div className="cards-container">
-                    <i class="far fa-clipboard cards-cardicon"></i>
+                    <i className="far fa-clipboard cards-cardicon"></i>
                         <div className="cards-cardtitle">
                             1 Profiling
                         </div>
@@ -60,7 +60,7 @@ function About () {
                 <div className="cards-thirdcolumn">
                     <div className="cards-cardscontainer">
                     <div className="cards-container">
-                    <i class="far fa-clipboard cards-cardicon"></i>
+                    <i className="far fa-clipboard cards-cardicon"></i>
                         <div className="cards-cardtitle">
                             1 Profiling
                         </div>
@@ -72,7 +72,7 @@ function About () {
                     </div>
                     <div className="cards-cardscontainer">
                     <div className="cards-container">
-                    <i class="far fa-clipboard cards-cardicon"></i>
+                    <i className="far fa-clipboard cards-cardicon"></i>
                         <div className="cards-cardtitle">
                             1 Profiling
                         </div>

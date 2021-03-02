@@ -43,9 +43,9 @@ function Footer (){
                     </p>
                     <p className="col-text-four">+91 9823239867 347384673845</p>
                     <p className="col-text-four">contact@HouseTutoring.com</p>
-                    <i class="fab fa-linkedin icons"/>               
-                    <i class="fab fa-youtube icons"/>
-                    <i class="fab fa-facebook-square icons"/>
+                    <i className="fab fa-linkedin icons"/>               
+                    <i className="fab fa-youtube icons"/>
+                    <i className="fab fa-facebook-square icons"/>
                 </div>
                 
             </div>

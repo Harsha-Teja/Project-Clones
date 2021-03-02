@@ -2,6 +2,7 @@ import React from "react"
 import TutorList from "../../TutorsList.json"
 import image from "../../Assets/svg/TutorsSvg/ladysitting.svg";
 import "./TutorProfileDetail.css"
+import ReactPlayer from "react-player"
 
 // Emojicons: 🏆 🥇 🥈 🥉 🏅 🎖 🏵 🎗 ✒️ ✏️ ▶️ ✅ ⟹ ⇨ 
 
@@ -67,6 +68,94 @@ function TutorProfileDetail (props){
                                 <li>🏆 {TutorList.TutorProfileAccolades[0]}</li>
                                 <li>🏆 {TutorList.TutorProfileAccolades[1]}</li>
                                 <li>🏆 {TutorList.TutorProfileAccolades[2]}</li>
+                            </div>
+                            <hr/>
+                            <div className="tutorprofiledetailsecondhead5"> Demo Videos </div>
+                            <div className="tutorprofiledetailsecondvideo">
+                            <ReactPlayer 
+                                width="190px"
+                                height="190px"
+                                controls
+                                url="https://www.youtube.com/watch?v=RdrTxPQ2xRY"
+                                onReady={() => console.log('onReady callback')}
+                                onStart={() => console.log('onstart callback')}
+                                onPause={() => console.log('onpause callback')}
+                                onEnded={() => console.log('onended callback')}
+                                onError={() => console.log('onerror callback')}
+                                className="tutorprofiledetailsecondvideoview"
+                                />
+                                <ReactPlayer 
+                                width="190px"
+                                height="190px"
+                                controls
+                                url="https://www.youtube.com/watch?v=RdrTxPQ2xRY"
+                                onReady={() => console.log('onReady callback')}
+                                onStart={() => console.log('onstart callback')}
+                                onPause={() => console.log('onpause callback')}
+                                onEnded={() => console.log('onended callback')}
+                                onError={() => console.log('onerror callback')}
+                                className="tutorprofiledetailsecondvideoview"
+                                />
+                                <ReactPlayer 
+                                width="190px"
+                                height="190px"
+                                controls
+                                url="https://www.youtube.com/watch?v=RdrTxPQ2xRY"
+                                onReady={() => console.log('onReady callback')}
+                                onStart={() => console.log('onstart callback')}
+                                onPause={() => console.log('onpause callback')}
+                                onEnded={() => console.log('onended callback')}
+                                onError={() => console.log('onerror callback')}
+                                className="tutorprofiledetailsecondvideoview"
+                                />
+                                <ReactPlayer 
+                                width="190px"
+                                height="190px"
+                                controls
+                                url="https://www.youtube.com/watch?v=RdrTxPQ2xRY"
+                                onReady={() => console.log('onReady callback')}
+                                onStart={() => console.log('onstart callback')}
+                                onPause={() => console.log('onpause callback')}
+                                onEnded={() => console.log('onended callback')}
+                                onError={() => console.log('onerror callback')}
+                                className="tutorprofiledetailsecondvideoview"
+                                />
+                                <ReactPlayer 
+                                width="190px"
+                                height="190px"
+                                controls
+                                url="https://www.youtube.com/watch?v=RdrTxPQ2xRY"
+                                onReady={() => console.log('onReady callback')}
+                                onStart={() => console.log('onstart callback')}
+                                onPause={() => console.log('onpause callback')}
+                                onEnded={() => console.log('onended callback')}
+                                onError={() => console.log('onerror callback')}
+                                className="tutorprofiledetailsecondvideoview"
+                                />
+                                <ReactPlayer 
+                                width="190px"
+                                height="190px"
+                                controls
+                                url="https://www.youtube.com/watch?v=RdrTxPQ2xRY"
+                                onReady={() => console.log('onReady callback')}
+                                onStart={() => console.log('onstart callback')}
+                                onPause={() => console.log('onpause callback')}
+                                onEnded={() => console.log('onended callback')}
+                                onError={() => console.log('onerror callback')}
+                                className="tutorprofiledetailsecondvideoview"
+                                />
+                                <ReactPlayer 
+                                width="190px"
+                                height="190px"
+                                controls
+                                url="https://www.youtube.com/watch?v=RdrTxPQ2xRY"
+                                onReady={() => console.log('onReady callback')}
+                                onStart={() => console.log('onstart callback')}
+                                onPause={() => console.log('onpause callback')}
+                                onEnded={() => console.log('onended callback')}
+                                onError={() => console.log('onerror callback')}
+                                className="tutorprofiledetailsecondvideoview"
+                                />
                             </div>
                         </div>
                     </div>

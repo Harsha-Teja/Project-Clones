@@ -21,6 +21,8 @@
     tutorprofiledetailsecondtext4
     tutorprofiledetailsecondhead5
     tutorprofiledetailsecondtext5
+    tutorprofiledetailsecondvideo
+    tutorprofiledetailsecondvideoview
     -----------------------------
 */
 
@@ -177,4 +179,15 @@
 
 li {
     margin-bottom: 5px;
+}
+
+.tutorprofiledetailsecondvideo{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border: var(--measure);
+}
+
+.tutorprofiledetailsecondvideoview{
+    border: var(--measure);
+    margin: 2px;
 }
