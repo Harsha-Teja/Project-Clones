@@ -4,6 +4,8 @@ import ReverseHero from "../HomeHero/ReverseHero"
 import heroillustration from "../../Assets/svg/hero-illustration-two.svg"
 import nsrcel from "../../Assets/images/nsrcellogo.png"
 import edstart from "../../Assets/images/awsedstartlogo.png"
+import ContactForm from "../ContactForm/ContactForm"
+
 
 
 function About () {
@@ -99,7 +101,7 @@ function About () {
             </div>
         </div>
         {/* Contact us form here */}
-
+        <ContactForm />
         </> 
     )
 }

@@ -5,7 +5,7 @@ import ReverseHero from "../HomeHero/ReverseHero"
 import heroillustration from "../../Assets/svg/hero-illustration-two.svg";
 import MiddleHero from "../HomeMiddleHero/MiddleHero"
 import HomeWhyComponent from "../HomeWhyComponent/HomeWhyComponent"
-import DemoForm from "../DemoForm/DemoForm"
+import DemoForm from "./DemoForm";
 
 
 function Home(){

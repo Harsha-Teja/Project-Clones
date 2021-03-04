@@ -3,6 +3,8 @@ import Hero from "../HomeHero/Hero"
 import ReverseHero from "../HomeHero/ReverseHero"
 import heroillustration from "../../Assets/svg/hero-illustration-two.svg"
 import "./BecomeTutor.css"
+import "./BecomeTutorForm"
+import BecomeTutorForm from "./BecomeTutorForm"
 
 
 function Becometutor () {
@@ -65,6 +67,7 @@ function Becometutor () {
                                 To create a production build, use npm run build.Note that the development build is not optimized.
                                 To create a production build, use npm run build."/>
         {/* Become a Tutor form here */}
+        <BecomeTutorForm />
     </>
     )
 }
