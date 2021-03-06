@@ -10,6 +10,11 @@
     tutorprofile-listnames
  */
 
+.tutorprofilelink{
+    text-decoration: none;
+    color: black;
+} 
+
 .tutorprofile-title{
     margin-top: 5px;
     margin-bottom: 5px;
@@ -39,7 +44,7 @@
      margin-right: 15px;
      background: rgba(0,0,0,0.08);
      border-radius: 20px;
-     box-shadow: 24px 18px 11px -5px rgba(0,0,0,0.6);
+     box-shadow: 24px 18px 11px -5px rgba(0,0,0,0.3);
  }
 
 .tutorprofile-card-img{
@@ -74,6 +79,7 @@
     border: var(--measure);
     font-size: 12px;
     margin-left: 20px;
+    list-style: none;
 }
 
 .tutorprofile-listnames .icons{

@@ -18,14 +18,15 @@
 
 .becometutormiddle{
     border: var(--measure);
+    margin-top: 70px;
 }
 
 .becometutormiddlewhypart{
     border: var(--measure);
     width: 60%;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .becometutormiddlewhytitle{
@@ -38,15 +39,18 @@
 
 .becometutormiddlewhybar{
     border: var(--measure);
-    background: rgba(0, 0, 0, 0.08);
+    background: rgba(0, 0, 0, 0.03);
     display: flex;
     margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 .becometutormiddlewhybarcard{
     border: var(--measure);
     margin: 10px;
     display: flex;
+    padding: 5px;
 }
 
 .becometutormiddlewhybarcardimg .icons{
@@ -72,7 +76,6 @@
 
 /* End Middle why part */
 
-
 .joinbecometutor{
     border: var(--measure);
     width: 80%;
@@ -84,6 +87,7 @@
 .joinbecometutortitle{
     border: var(--measure);
     font-size: 12px;
+    margin-bottom: 10px ;
     font-weight: bold;
     text-align: center;
 }
@@ -93,6 +97,7 @@
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .joinbecometutortext{

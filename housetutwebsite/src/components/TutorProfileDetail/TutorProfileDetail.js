@@ -31,15 +31,18 @@ function TutorProfileDetail (props){
                                 <button className="tutorprofiledetailone1button">BOOK FREE DEMO</button>
                         </div>
                         </div>
+
                         {/* Second Part View */}
+
                         <div className="tutorprofiledetailsecond"> 
                             <div className="tutorprofiledetailsecondhead1"> Overview </div>
-                            <hr/>
+                            {/* <hr/> */}
                             <div className="tutorprofiledetailsecondtext1">
                                 {TutorList.TutorProfileOverview}
                             </div>
+                            
                             <div className="tutorprofiledetailsecondhead2">Years of Experience </div>
-                            <hr/>
+                            {/* <hr/> */}
                             <div className="tutorprofiledetailsecondtext2">
                                 <ul>
                                     <li>⟹ {TutorList.TutorProfileYOE[0]} </li>
@@ -48,29 +51,37 @@ function TutorProfileDetail (props){
                                     <li>⟹ {TutorList.TutorProfileYOE[3]}</li>
                                 </ul>
                             </div>
+
                             <div className="tutorprofiledetailsecondhead3"> Education </div>
-                            <hr/>
+                            {/* <hr/> */}
+
                             <div className="tutorprofiledetailsecondtext3">
                                 <li>📜 {TutorList.TutorProfileEducation[0]}</li>
                                 <li>📜 {TutorList.TutorProfileEducation[1]}</li>
                                 <li>📜 {TutorList.TutorProfileEducation[2]}</li>
                             </div>
+
                             <div className="tutorprofiledetailsecondhead4"> Verified Info </div>
-                            <hr/>
+                            {/* <hr/> */}
+
                             <div className="tutorprofiledetailsecondtext4">
                                 <li>✅ {TutorList.TutorProfileVerified[0]}</li>
                                 <li>✅ {TutorList.TutorProfileVerified[1]}</li>
                                 <li>✅ {TutorList.TutorProfileVerified[2]}</li>
                             </div>
+
                             <div className="tutorprofiledetailsecondhead5"> Accolades </div>
-                            <hr/>
+                            {/* <hr/> */}
+
                             <div className="tutorprofiledetailsecondtext5">
                                 <li>🏆 {TutorList.TutorProfileAccolades[0]}</li>
                                 <li>🏆 {TutorList.TutorProfileAccolades[1]}</li>
                                 <li>🏆 {TutorList.TutorProfileAccolades[2]}</li>
                             </div>
-                            <hr/>
+
+                            {/* <hr/> */}
                             <div className="tutorprofiledetailsecondhead5"> Demo Videos </div>
+
                             <div className="tutorprofiledetailsecondvideo">
                             <ReactPlayer 
                                 width="190px"

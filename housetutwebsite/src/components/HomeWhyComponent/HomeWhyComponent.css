@@ -22,6 +22,7 @@ cards-whyht-rowtwo-card
     text-align: center;
     font-size: 40px;
     font-weight: bold;
+    margin-top: 20px;
  }
 
  .cards-rows{
@@ -43,8 +44,17 @@ cards-whyht-rowtwo-card
     padding: 25px;
     border: 2px solid whitesmoke;
     border-radius: 15px;
-    box-shadow: 24px 18px 11px -5px rgba(0,0,0,0.6);
+    box-shadow: 24px 18px 11px -5px rgba(0,0,0,0.3);
  } 
+
+ .cards-whyht-rowone-card:hover{
+   z-index: 1;
+   box-shadow: 0 8px 50px rgba(#000, 0.2);
+   transform: scale(1.05);
+   transition: box-shadow 0.2s ease,
+               transform 0.2s ease,
+               z-index 0s 0s ease;
+ }
 
  .cards-whyht-row-cardicon{
     border: var(--measure);
@@ -76,5 +86,14 @@ cards-whyht-rowtwo-card
     width: 250px;
     margin-bottom: 25px;
     padding: 25px;
-    box-shadow: 24px 18px 11px -5px rgba(0,0,0,0.6);
+    box-shadow: 24px 18px 11px -5px rgba(0,0,0,0.3);
  } 
+
+ .cards-whyht-rowtwo-card:hover{
+   z-index: 1;
+   box-shadow: 0 8px 50px rgba(#000, 0.2);
+   transform: scale(1.05);
+   transition: box-shadow 0.2s ease,
+               transform 0.2s ease,
+               z-index 0s 0s ease;
+ }

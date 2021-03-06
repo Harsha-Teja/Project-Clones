@@ -22,7 +22,7 @@ function TutorProfile(){
                     console.log("[Tutori Prfoile]",TutorList.id);
                     return (
 
-                    <Link to={`/tutorprofile/${TutorList.id}`} key={TutorList.id}>
+                    <Link to={`/tutorprofile/${TutorList.id}`} key={TutorList.id} className="tutorprofilelink">
                     <Card
                     {...TutorList}
                     TutorProfileImage={image}

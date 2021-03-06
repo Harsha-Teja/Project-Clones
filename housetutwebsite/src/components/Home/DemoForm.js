@@ -1,7 +1,8 @@
 import React from 'react'
 import { useFormik } from 'formik'
-import "../ContactForm/ContactForm"
 import emailjs from "emailjs-com"
+import demo from "../../Assets/svg/demo.svg"
+import "./DemoForm.css"
 
 export function DemoForm () {
 
@@ -16,9 +17,11 @@ export function DemoForm () {
     
         if (!values.subject) {
             errors.subject = 'Required'
-          } else if (values.subject.length < 4) {
-            errors.subject = 'Must be 5 characters or more'
-          }
+          } 
+        
+        if (!values.subject) {
+            errors.subject = 'Required'
+          } 
     
         if (!values.email) {
           errors.email = 'Required'
@@ -63,7 +66,8 @@ export function DemoForm () {
           email: '',
           phonenumber: '',
           subject:'',
-          message: ''
+          educationlevel:''
+          // message: ''
         },
         validate,
     
@@ -74,81 +78,110 @@ export function DemoForm () {
       })
     
       return (
-          <div className="contactform">
-            <h1 className="contactformtitle">Become a Tutor Form </h1>
-            {/* <form onSubmit={formik.handleSubmit}> */}
-            <form onSubmit={sendmail}>
-              <div className="w">
-              {/* Name */}
-              <label htmlFor="name" className="contactnamelabel">Name</label>
-              <input
-                id="name"
-                name="name"
-                type="name"
-                onChange={formik.handleChange}
-                onBlur={formik.handleBlur}
-                value={formik.values.name}
-                className="contactnameinput"/>
-              {formik.touched.name && formik.errors.name ? <div className='error'>{formik.errors.name}</div> : null}
-              
-              {/* Email */}
-              <label htmlFor="email" className="contactemaillabel">Email Address</label>
-              <input
-                id="email"
-                name="email"
-                type="email"
-                onChange={formik.handleChange}
-                onBlur={formik.handleBlur}
-                value={formik.values.email}
-                className="contactemailinput"/>
-              {formik.touched.email && formik.errors.email ? <div className='error'>{formik.errors.email}</div> : null}
-    
-              {/* Phone number */}
-              <label htmlFor="phonenumber" className="contactphonelabel">phonenumber</label>
-              <input
-                id="phonenumber"
-                name="phonenumber"
-                type="tel"
-                onChange={formik.handleChange}
-                onBlur={formik.handleBlur}
-                value={formik.values.phonenumber}
-                className="contactphoneinput"/>
-              {formik.touched.phonenumber && formik.errors.phonenumber ? <div className='error'>{formik.errors.phonenumber}</div> : null}
-    
-              <label htmlFor="subject" className="contactnamelabel">Subject(s)</label>
-                <select
-                    id="subject"
-                    name="subject"
-                    value={formik.values.subject}
-                    onChange={formik.handleChange}
-                    onBlur={formik.handleBlur}
-                    className="contactnameinput"
-                    style={{ display: 'block' }}
-                >
-                    <option value="" label="Select a Subject" />
-                    <option value="Hindi" label="Hindi" />
-                    <option value="Maths" label="Maths" />
-                    <option value="Science" label="Science" />
-                </select>
-              {formik.touched.subject && formik.errors.subject ? <div className='error'>{formik.errors.subject}</div> : null}
-    
-              {/* Message */}
-              <label htmlFor="message" className="contactmessagelabel">Message</label>
-              <input
-                id="message"
-                name="message"
-                type="text"
-                onChange={formik.handleChange}
-                onBlur={formik.handleBlur}
-                value={formik.values.message}
-                className="contactmessageinput"/>
-              {formik.touched.message && formik.errors.message ? <div className='error'>{formik.errors.message}</div> : null}
-    
-              {/* Submit Button */}
-              <button type="submit" className="contactbutton">Send</button>
-              </div>
-            </form>
+        <>
+          <div className="demoformfull">
+            <div className="demoformpic">
+              <img src={demo} alt="demo" className="demoformimg"/>
+            </div>
+            <div className="demoform">
+              <h1 className="demoformtitle">Book a Free Demo </h1>
+              {/* <form onSubmit={formik.handleSubmit}> */}
+              <form onSubmit={sendmail}>
+                <div className="w">
+                {/* Name */}
+                <label htmlFor="name" className="demonamelabel">Name*</label>
+                <input
+                  id="name"
+                  name="name"
+                  type="name"
+                  onChange={formik.handleChange}
+                  onBlur={formik.handleBlur}
+                  value={formik.values.name}
+                  className="demonameinput"/>
+                {formik.touched.name && formik.errors.name ? <div className='error'>{formik.errors.name}</div> : null}
+                
+                {/* Email */}
+                <label htmlFor="email" className="demoemaillabel">Email Address*</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  onChange={formik.handleChange}
+                  onBlur={formik.handleBlur}
+                  value={formik.values.email}
+                  className="demoemailinput"/>
+                {formik.touched.email && formik.errors.email ? <div className='error'>{formik.errors.email}</div> : null}
+      
+                {/* Phone number */}
+                <label htmlFor="phonenumber" className="demophonelabel">Phone Number*</label>
+                <input
+                  id="phonenumber"
+                  name="phonenumber"
+                  type="tel"
+                  onChange={formik.handleChange}
+                  onBlur={formik.handleBlur}
+                  value={formik.values.phonenumber}
+                  className="demophoneinput"/>
+                {formik.touched.phonenumber && formik.errors.phonenumber ? <div className='error'>{formik.errors.phonenumber}</div> : null}
+
+                {/* Subject */}
+                <label htmlFor="subject" className="demonamelabel">Course(s)*</label>
+                  <select
+                      id="subject"
+                      name="subject"
+                      value={formik.values.subject}
+                      onChange={formik.handleChange}
+                      onBlur={formik.handleBlur}
+                      className="demonameinput"
+                      style={{ display: 'block' }}
+                  >
+                      <option value="" label="Select a Subject" />
+                      <option value="Hindi" label="Hindi" />
+                      <option value="Maths" label="Maths" />
+                      <option value="Science" label="Science" />
+                  </select>
+                {formik.touched.subject && formik.errors.subject ? <div className='error'>{formik.errors.subject}</div> : null}
+
+
+                {/* Education Level */}
+                <label htmlFor="educationlevel" className="demonamelabel">Education Level*</label>
+                  <select
+                      id="educationlevel"
+                      name="educationlevel"
+                      value={formik.values.educationlevel}
+                      onChange={formik.handleChange}
+                      onBlur={formik.handleBlur}
+                      className="demonameinput"
+                      style={{ display: 'block' }}
+                  >
+                      <option value="" label="Select a Education Level" />
+                      <option value="Pre-Primary" label="preprimary" />
+                      <option value="Primary" label="primary" />
+                      <option value="Secondary" label="secondary" />
+                      <option value="Higher-Secondary" label="highersecondary" />
+                      <option value="Degree" label="Degree" />
+                  </select>
+                {formik.touched.subject && formik.errors.subject ? <div className='error'>{formik.errors.subject}</div> : null}
+                  
+                {/* Message */}
+                {/* <label htmlFor="message" className="contactmessagelabel">Message</label>
+                <input
+                  id="message"
+                  name="message"
+                  type="text"
+                  onChange={formik.handleChange}
+                  onBlur={formik.handleBlur}
+                  value={formik.values.message}
+                  className="contactmessageinput"/>
+                {formik.touched.message && formik.errors.message ? <div className='error'>{formik.errors.message}</div> : null} */}
+      
+                {/* Submit Button */}
+                <button type="submit" className="demobutton">Send</button>
+                </div>
+              </form>
+            </div>
           </div>
+        </>
         )
 }
 

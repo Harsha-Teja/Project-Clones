@@ -18,7 +18,7 @@ function MiddleHero (){
                     To create a production build, use npm run build.
                 </div>
                 <div className="class-firstcolumn-button">
-                    <button>Read More</button>
+                    <button className="class-firstcolumn-button-1">Read More</button>
                 </div>
             </div>
             {/* Second column */}

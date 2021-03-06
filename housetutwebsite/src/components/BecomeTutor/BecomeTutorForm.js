@@ -1,7 +1,8 @@
 import React from 'react'
 import { useFormik } from 'formik'
-import "../ContactForm/ContactForm.css"
 import emailjs from "emailjs-com"
+import "../BecomeTutor/BecomeTutorForm.css"
+import becometutor from "../../Assets/svg/becometutor.svg"
 
 export function BecomeTutorForm () {
 
@@ -34,11 +35,11 @@ export function BecomeTutorForm () {
       errors.password = 'Must not be 1234567890 !!!'
     }
 
-    if (!values.message) {
-      errors.message = 'Required'
-    } else if (values.message.length < 4 ) {
-      errors.message = 'Please, enter a meaning full message !!!'
-    }
+    // if (!values.message) {
+    //   errors.message = 'Required'
+    // } else if (values.message.length < 4 ) {
+    //   errors.message = 'Please, enter a meaning full message !!!'
+    // }
 
     return errors
   }
@@ -62,8 +63,8 @@ export function BecomeTutorForm () {
       name: '',
       email: '',
       phonenumber: '',
-      subject:'',
-      message: ''
+      subject:''
+      // message: ''
     },
     validate,
 
@@ -74,13 +75,16 @@ export function BecomeTutorForm () {
   })
 
   return (
-      <div className="contactform">
-        <h1 className="contactformtitle">Become a Tutor Form </h1>
+    <>
+      <div className="becometutoroverall">
+      <div className="becometutorform">
+        <h1 className="becometutorformtitle">Become a Tutor: Form </h1>
+        <h6>Please fill the form and our team will contact you shortly </h6>
         {/* <form onSubmit={formik.handleSubmit}> */}
         <form onSubmit={sendmail}>
           <div className="w">
           {/* Name */}
-          <label htmlFor="name" className="contactnamelabel">Name</label>
+          <label htmlFor="name" className="becometutornamelabel">Name</label>
           <input
             id="name"
             name="name"
@@ -88,11 +92,11 @@ export function BecomeTutorForm () {
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
             value={formik.values.name}
-            className="contactnameinput"/>
+            className="becometutornameinput"/>
           {formik.touched.name && formik.errors.name ? <div className='error'>{formik.errors.name}</div> : null}
           
           {/* Email */}
-          <label htmlFor="email" className="contactemaillabel">Email Address</label>
+          <label htmlFor="email" className="becometutoremaillabel">Email Address</label>
           <input
             id="email"
             name="email"
@@ -100,11 +104,11 @@ export function BecomeTutorForm () {
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
             value={formik.values.email}
-            className="contactemailinput"/>
+            className="becometutoremailinput"/>
           {formik.touched.email && formik.errors.email ? <div className='error'>{formik.errors.email}</div> : null}
 
           {/* Phone number */}
-          <label htmlFor="phonenumber" className="contactphonelabel">phonenumber</label>
+          <label htmlFor="phonenumber" className="becometutorphonelabel">Phone Number</label>
           <input
             id="phonenumber"
             name="phonenumber"
@@ -112,10 +116,10 @@ export function BecomeTutorForm () {
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
             value={formik.values.phonenumber}
-            className="contactphoneinput"/>
+            className="becometutorphoneinput"/>
           {formik.touched.phonenumber && formik.errors.phonenumber ? <div className='error'>{formik.errors.phonenumber}</div> : null}
 
-          <label htmlFor="subject" className="contactnamelabel">Subject(s)</label>
+          <label htmlFor="subject" className="becometutornamelabel">Subject(s)</label>
           <input
             id="subject"
             name="subject"
@@ -123,11 +127,11 @@ export function BecomeTutorForm () {
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
             value={formik.values.subject}
-            className="contactnameinput"/>
+            className="becometutornameinput"/>
           {formik.touched.subject && formik.errors.subject ? <div className='error'>{formik.errors.subject}</div> : null}
 
           {/* Message */}
-          <label htmlFor="message" className="contactmessagelabel">Message</label>
+          {/* <label htmlFor="message" className="contactmessagelabel">Message</label>
           <input
             id="message"
             name="message"
@@ -136,13 +140,18 @@ export function BecomeTutorForm () {
             onBlur={formik.handleBlur}
             value={formik.values.message}
             className="contactmessageinput"/>
-          {formik.touched.message && formik.errors.message ? <div className='error'>{formik.errors.message}</div> : null}
+          {formik.touched.message && formik.errors.message ? <div className='error'>{formik.errors.message}</div> : null} */}
 
           {/* Submit Button */}
-          <button type="submit" className="contactbutton">Send</button>
+          <button type="submit" className="becometutorbutton">Send</button>
           </div>
         </form>
       </div>
+      <div className="becometutorpic"> 
+        <img src={becometutor} alt="become tutor" className="becometutorimg"/>
+      </div>
+      </div>
+      </>
     )
 }
 

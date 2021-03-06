@@ -24,96 +24,105 @@ export default Findmetutor
 function Cards () {
     return (
         <>
-        <div className="findmetutors-title"> Subjects </div>
+        <div className="findmetutors-title"> Courses </div>
         <div className="findmetutors-container">
                 {/* Card component 1*/}
-                <Link to="/tutorprofile">
+                
                 <div className="findmetutors-card">
+                <Link to="/tutorprofile" className="findmetutorlink">
                     <div className="findmetutors-card-img">
                         <img src= {subject} alt=" subject " className="card-img"/>
                     </div>
                     <div className="findmetutors-card-title">
                         Science
                     </div>  
-                </div>
                 </Link>    
+                </div>
+                
                 {/* Card component 2*/}
-                <Link to="/tutorprofile">
                 <div className="findmetutors-card">
+                <Link to="/tutorprofile" className="findmetutorlink">
                     <div className="findmetutors-card-img">
                         <img src= {subject} alt=" subject " className="card-img"/>
                     </div>
                     <div className="findmetutors-card-title">
                         Science
                     </div>  
+                </Link>    
                 </div>
-                </Link>  
+
                 {/* Card component 3*/}
-                <Link to="/tutorprofile">
                 <div className="findmetutors-card">
+                <Link to="/tutorprofile" className="findmetutorlink">
                     <div className="findmetutors-card-img">
                         <img src= {subject} alt=" subject " className="card-img"/>
                     </div>
                     <div className="findmetutors-card-title">
                         Science
                     </div>  
+                </Link>    
                 </div>
-                </Link>
+
                 {/* Card component 4*/}
-                <Link to="/tutorprofile">
                 <div className="findmetutors-card">
+                <Link to="/tutorprofile" className="findmetutorlink">
                     <div className="findmetutors-card-img">
                         <img src= {subject} alt=" subject " className="card-img"/>
                     </div>
                     <div className="findmetutors-card-title">
                         Science
                     </div>  
+                </Link>    
                 </div>
-                </Link>  
+
                 {/* Card component 5*/}
-                <Link to="/tutorprofile">
                 <div className="findmetutors-card">
+                <Link to="/tutorprofile" className="findmetutorlink">
                     <div className="findmetutors-card-img">
                         <img src= {subject} alt=" subject " className="card-img"/>
                     </div>
                     <div className="findmetutors-card-title">
                         Science
                     </div>  
+                </Link>    
                 </div>
-                </Link>  
+
                 {/* Card component 6*/}
-                <Link to="/tutorprofile">
                 <div className="findmetutors-card">
+                <Link to="/tutorprofile" className="findmetutorlink">
                     <div className="findmetutors-card-img">
                         <img src= {subject} alt=" subject " className="card-img"/>
                     </div>
                     <div className="findmetutors-card-title">
                         Science
                     </div>  
+                </Link>    
                 </div>
-                </Link>  
+
                 {/* Card component 7*/}
-                <Link to="/tutorprofile">
                 <div className="findmetutors-card">
+                <Link to="/tutorprofile" className="findmetutorlink">
                     <div className="findmetutors-card-img">
                         <img src= {subject} alt=" subject " className="card-img"/>
                     </div>
                     <div className="findmetutors-card-title">
                         Science
                     </div>  
+                </Link>    
                 </div>
-                </Link>  
+
                 {/* Card component 8*/}
-                <Link to="/tutorprofile">
                 <div className="findmetutors-card">
+                <Link to="/tutorprofile" className="findmetutorlink">
                     <div className="findmetutors-card-img">
                         <img src= {subject} alt=" subject " className="card-img"/>
                     </div>
                     <div className="findmetutors-card-title">
                         Science
                     </div>  
+                </Link>    
                 </div>
-                </Link>  
+                
             </div>
         </>
         

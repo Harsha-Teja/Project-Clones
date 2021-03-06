@@ -7,6 +7,11 @@
     findmetutors-card-text
     */
 
+    .findmetutorlink{
+        text-decoration: none;
+        color: black;
+    }
+
     .card-img {
         width: 160px;
         height: 160px;
@@ -19,7 +24,7 @@
         width: 80%;
         margin: auto;
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 60px;
         display: grid;
         grid-template-columns: repeat(4,1fr);
     }
@@ -41,12 +46,11 @@
         margin-left: 40px;
         background: rgba(0,0,0,0.05);
         cursor: pointer;
-        box-shadow: 24px 18px 11px -5px rgba(0,0,0,0.6);
+        box-shadow: 24px 18px 11px -5px rgba(0,0,0,0.3);
     }
     
     .findmetutors-card-img{
         border: var(--measure);
-        
     }
     
     .findmetutors-card-title{

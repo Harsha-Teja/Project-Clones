@@ -40,13 +40,15 @@
 }
 
 .cards-firstcolumn-header{
-    font-size: 20px;
+    font-size: 16px;
     border: var(--measure);
+    margin-top: 10px;
 }
 
 .cards-firstcolumn-text{
     font-size: 10px;
     border: var(--measure);
+    margin-top: 10px;
 }
 
 .class-firstcolumn-button{
@@ -54,8 +56,18 @@
     border: var(--measure);
 }
 
-.class-firstcolumn-button button{
+.class-firstcolumn-button-1{
     padding: 8px 14px;
+    background: transparent;
+    border: 2px solid green;
+    border-radius: 20px;
+    margin-left: 100px ;
+    cursor: pointer;
+}
+
+.class-firstcolumn-button-1:hover{
+    background: green;
+    color: white;
 }
 
 .cards-secondcolumn{
@@ -68,11 +80,20 @@
     border: var(--measure);
     width: 160px;
     border: 2px solid whitesmoke;
-    box-shadow: 24px 18px 11px -5px rgba(0,0,0,0.6);
+    box-shadow: 24px 18px 11px -5px rgba(0,0,0,0.3);
     margin-top: 15px;
     padding: 20px;
     border-radius: 10px;
 }
+
+.cards-cardscontainer:hover{
+    z-index: 1;
+    box-shadow: 0 8px 50px rgba(#000, 0.2);
+    transform: scale(1.05);
+    transition: box-shadow 0.2s ease,
+                transform 0.2s ease,
+                z-index 0s 0s ease;
+  }
 
 .cards-cardicon{
     font-size: 50px;
