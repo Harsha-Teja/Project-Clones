@@ -30,15 +30,6 @@ function Footer (){
                 <use id="wave3" class="wave" xlinkHref="#wave" x="0" y="-2" ></use> 
                 <use id="wave2" class="wave" xlinkHref="#wave" x="0" y="0" ></use>
                 
-                {/* <g class="topball">
-                <circle class="ball" cx="110" cy="8" r="4" stroke="none" stroke-width="0" fill="red" />
-
-                    <g class="arrow">
-                    <polyline class="" points="108,8 110,6 112,8" fill="none"  />
-                    <polyline class="" points="110,6 110,10.5" fill="none"  />
-                    </g>
-                    
-                </g> */}
                 <g class="gooeff">
                 <circle class="drop drop1" cx="20" cy="2" r="1.8"  />
                 <circle class="drop drop2" cx="25" cy="2.5" r="1.5"  />
@@ -60,7 +51,7 @@ function Footer (){
                 <div className="column-two">
                     <p className="footer-title"><strong>Support</strong></p>
                     <ul>
-                        <li className="col-text"> FAQ </li>
+                        <li className="col-text"> <a href="www.teacherr.in">FAQ</a> </li>
                         <li className="col-text"> Terms and Conditions </li>
                         <li className="col-text"> FAQ </li>
                         <li className="col-text"> FAQ </li>

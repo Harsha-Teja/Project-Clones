@@ -22,9 +22,21 @@
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    background: rgba(0, 0, 0, 0.04);
+    background: rgba(0, 0, 0, 0.01);
     border-radius: 15px;
     padding: 20px;
+}
+
+.contactusimg{
+    border: var(--measure);
+    width: 630px;
+    height: 200px;
+}
+
+.contactuspic{
+    border: var(--measure);
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 .contactformcontainer{
@@ -55,6 +67,8 @@
     margin-top: 5px;
     margin-bottom: 10px;
     margin-left: 15px;
+    background: transparent;
+    border: 1px solid green;
 }
     
 .contactemaillabel{
@@ -70,6 +84,8 @@
     margin-top: 5px;
     margin-bottom: 10px;
     margin-left: 15px;
+    background: transparent;
+    border: 1px solid green;
 }
     
 .contactphonelabel{
@@ -85,6 +101,8 @@
     margin-top: 5px;
     margin-bottom: 10px;
     margin-left: 15px;
+    background: transparent;
+    border: 1px solid green;
 }
     
 .contactmessagelabel{
@@ -101,13 +119,25 @@
     margin-top: 5px;
     margin-bottom: 10px;
     margin-left: 15px;
+    background: transparent;
+    border: 1px solid green;
+    text-align: start;
 }
     
 .contactbutton{
     border: var(--measure);
     width: 100px;
     margin-left: 300px;
-    
+    background: transparent;
+    border: 2px solid green;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.contactbutton:hover{
+    background: green;
+    color: white;
 }
 
 .error{

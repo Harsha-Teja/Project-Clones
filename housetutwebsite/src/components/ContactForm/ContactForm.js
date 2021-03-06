@@ -2,6 +2,7 @@ import React from 'react'
 import { useFormik } from 'formik'
 import "./ContactForm.css"
 import emailjs from "emailjs-com"
+import contactus from "../../Assets/svg/contactus.svg"
 
 export function ContactForm () {
 
@@ -72,6 +73,9 @@ export function ContactForm () {
   return (
       <div className="contactform">
         <h1 className="contactformtitle">Contact Us </h1>
+        <div className="contactuspic">
+          <img  src={contactus} alt="contact us " className="contactusimg"/>
+        </div>
         {/* <form onSubmit={formik.handleSubmit}> */}
         <form onSubmit={sendmail}>
           <div className="w">
@@ -100,7 +104,7 @@ export function ContactForm () {
           {formik.touched.email && formik.errors.email ? <div className='error'>{formik.errors.email}</div> : null}
 
           {/* Phone number */}
-          <label htmlFor="phonenumber" className="contactphonelabel">phonenumber</label>
+          <label htmlFor="phonenumber" className="contactphonelabel">Phone Number</label>
           <input
             id="phonenumber"
             name="phonenumber"

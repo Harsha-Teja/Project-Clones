@@ -5,6 +5,9 @@ import heroillustration from "../../Assets/svg/hero-illustration-two.svg"
 import nsrcel from "../../Assets/images/nsrcellogo.png"
 import edstart from "../../Assets/images/awsedstartlogo.png"
 import ContactForm from "../ContactForm/ContactForm"
+import support from "../../Assets/svg/support.svg"
+import collab from "../../Assets/svg/collab.svg"
+import teacherr from "../../Assets/images/teacherr.png"
 
 
 
@@ -86,20 +89,42 @@ function About () {
                     </div>
                 </div>
             </div>
+
         {/* Some of our backers  */}
+        <div className="support">
+        <div className="supportpic">
+            <img src={support} alt="supporters" className="supportimgone"/>
+        </div>
         <div className="oursupports">
             <div className="oursupportstitle"> Our Supporters </div>
             <div className="oursupportslogos">
-            <div className="oursupportslogo">
-                <img src={nsrcel} alt="nsrcel logo" className="supportimg"/>
-                <h6> NSRCEL (IIMB Accelerator)</h6>
-            </div>
-            <div className="oursupportslogo">
-                <img src={edstart} alt="AWS Edtech Startups" className="supportimg"/>
-                <h6> AWS Edtech Startups</h6>
-            </div>
+                <div className="oursupportslogo">
+                    <img src={nsrcel} alt="nsrcel logo" className="supportimg"/>
+                    <h6> NSRCEL (IIMB Accelerator)</h6>
+                </div>
+                <div className="oursupportslogo">
+                    <img src={edstart} alt="AWS Edtech Startups" className="supportimg"/>
+                    <h6> AWS Edtech Startups</h6>
+                </div>
             </div>
         </div>
+        </div>
+
+        {/* In collaboration */}
+
+        <div className="collab">
+        <div className="collabtwo">
+            <div className="collabtitle"> In Collaboration with </div>
+            <div className="collablogo">
+                    <img src={teacherr} alt="nsrcel logo" className="collabteacherrlogo"/>
+                    <h6><a href="www.teacherr.in" className="teacherr"> Teacherr </a></h6>
+            </div>
+        </div>
+        <div className="collabpic">
+            <img src={collab} alt="collaboration" className="collabimgone" />
+        </div>
+        </div>
+
         {/* Contact us form here */}
         <ContactForm />
         </> 
