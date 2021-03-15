@@ -1,111 +1,890 @@
-{ "Vacancies": [
-    {
-    "id": "1",
-    "schoolname": "harsha school",
-    "subject": "maths",
-    "jobrole": "mother teahcers",
-    "division": "Middle School",
-    "flipgridlink": "https://flipgrid.com/d21f7636",
-    "location": "Hyderabad"
-    },
-    {
-    "id": "1",
-    "schoolname": "chandu school",
-    "subject": "science",
-    "jobrole": "mother lol",
-    "division": "high School",
-    "flipgridlink": "https://flipgrid.com/d21f7636",
-    "location": "secunderabad"
-    },
-    {
-    "id": "1",
-    "schoolname": "varun school",
-    "subject": "english",
-    "jobrole": "dad teahcers",
-    "division": "low School",
-    "flipgridlink": "https://flipgrid.com/d21f7636",
-    "location": "luknow"
-    },
-    {
-    "id": "1",
-    "schoolname": "random school",
-    "subject": "sanskrit",
-    "jobrole": "mothloler teahcers",
-    "division": " School",
-    "flipgridlink": "https://flipgrid.com/d21f7636",
-    "location": "delhi"
-    },
-    {
-    "id": "1",
-    "schoolname": "harshit school",
-    "subject": "zoology",
-    "jobrole": "daddy teahcers",
-    "division": "leadership",
-    "flipgridlink": "https://flipgrid.com/d21f7636",
-    "location": "chennai"
-    },
-    {
-    "id": "1",
-    "schoolname": "lalalal school",
-    "subject": "physics",
-    "jobrole": "mother teahcers",
-    "division": "high School",
-    "flipgridlink": "https://flipgrid.com/d21f7636",
-    "location": "bangalore"
-    },
-    {
-    "id": "1",
-    "schoolname": "harsha school",
-    "subject": "maths",
-    "jobrole": "mother teahcers",
-    "division": "Middle School",
-    "flipgridlink": "https://flipgrid.com/d21f7636",
-    "location": "Hyderabad"
-    },
-    {
-    "id": "1",
-    "schoolname": "harsha school",
-    "subject": "maths",
-    "jobrole": "mother teahcers",
-    "division": "Middle School",
-    "flipgridlink": "https://flipgrid.com/d21f7636",
-    "location": "mumbai"
-    },
-    {
-    "id": "1",
-    "schoolname": "harsha school",
-    "subject": "maths",
-    "jobrole": "mother teahcers",
-    "division": "Middle School",
-    "flipgridlink": "https://flipgrid.com/d21f7636",
-    "location": "gurgrama"
-    },
-    {
-    "id": "1",
-    "schoolname": "harsha dabba",
-    "subject": "french",
-    "jobrole": "mother teahcers",
-    "division": "Middle School",
-    "flipgridlink": "https://flipgrid.com/d21f7636",
-    "location": "laolasdg"
-    },
-    {
-    "id": "1",
-    "schoolname": "harsha school",
-    "subject": "french",
-    "jobrole": "mother teahcers",
-    "division": "high School",
-    "flipgridlink": "https://flipgrid.com/d21f7636",
-    "location": "Hyderabad"
-    },
-    {
-    "id": "1",
-    "schoolname": "harsha school",
-    "subject": "maths",
-    "jobrole": "mother teahcers",
-    "division": "Middle School",
-    "flipgridlink": "https://flipgrid.com/d21f7636",
-    "location": "Hyderabad"
-    }
-]
+{
+    "Vacancies": [
+        {
+            "id": "1",
+            "schoolname": "Solitaire Global Schools",
+            "location": "Upparpally, Attapur, Hyderabad",
+            "jobrole": "Mother Teachers",
+            "division": "Pre Primary",
+            "flipgridlink": "https://flipgrid.com/c7fd8bb2"
+        },
+        {
+            "id": "2",
+            "schoolname": "Solitaire Global Schools",
+            "location": "Upparpally, Attapur, Hyderabad",
+            "jobrole": "Math Teachers",
+            "division": "Middle School",
+            "flipgridlink": "https://flipgrid.com/1b2a264d"
+        },
+        {
+            "id": "3",
+            "schoolname": "Solitaire Global Schools",
+            "location": "Upparpally, Attapur, Hyderabad",
+            "jobrole": "Science Teachers",
+            "division": "Middle School",
+            "flipgridlink": "https://flipgrid.com/e257a921"
+        },
+        {
+            "id": "4",
+            "schoolname": "Solitaire Global Schools",
+            "location": "Upparpally, Attapur, Hyderabad",
+            "jobrole": "English Teachers",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/e2ce13b7"
+        },
+        {
+            "id": "5",
+            "schoolname": "Solitaire Global Schools",
+            "location": "Upparpally, Attapur, Hyderabad",
+            "jobrole": "English Teachers",
+            "division": "Middle School",
+            "flipgridlink": "https://flipgrid.com/ed93054f"
+        },
+        {
+            "id": "6",
+            "schoolname": "Solitaire Global Schools",
+            "location": "Upparpally, Attapur, Hyderabad",
+            "jobrole": "Business Studies",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/5b7544d8"
+        },
+        {
+            "id": "7",
+            "schoolname": "Solitaire Global Schools",
+            "location": "Upparpally, Attapur, Hyderabad",
+            "jobrole": "Economics Teachers",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/1facd576"
+        },
+        {
+            "id": "8",
+            "schoolname": "Solitaire Global Schools",
+            "location": "Upparpally, Attapur, Hyderabad",
+            "jobrole": "Hindi Teachers",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/591c89f8"
+        },
+        {
+            "id": "9",
+            "schoolname": "Solitaire Global Schools",
+            "location": "Upparpally, Attapur, Hyderabad",
+            "jobrole": "Telugu Teachers",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/0a23e22a"
+        },
+        {
+            "id": "10",
+            "schoolname": "Solitaire Global Schools",
+            "location": "Upparpally, Attapur, Hyderabad",
+            "jobrole": "Robotics and AI",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/bb14359c"
+        },
+        {
+            "id": "11",
+            "schoolname": "SANKALP SCHOOL",
+            "location": "Sy No 540 MM Kunta ,Ragannaguda ,Abdullapurmet (M) RangaReddy Dist",
+            "jobrole": "Social",
+            "division": "Middle School",
+            "flipgridlink": "https://flipgrid.com/d1a18cc2"
+        },
+        {
+            "id": "12",
+            "schoolname": "SANKALP SCHOOL",
+            "location": "Sy No 540 MM Kunta ,Ragannaguda ,Abdullapurmet (M) RangaReddy Dist",
+            "jobrole": "Physics",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/6e96de4e"
+        },
+        {
+            "id": "13",
+            "schoolname": "SANKALP SCHOOL",
+            "location": "Sy No 540 MM Kunta ,Ragannaguda ,Abdullapurmet (M) RangaReddy Dist",
+            "jobrole": "Warden - Female",
+            "division": "Non Teaching",
+            "flipgridlink": "https://flipgrid.com/5f56f211"
+        },
+        {
+            "id": "14",
+            "schoolname": "SANKALP SCHOOL",
+            "location": "Sy No 540 MM Kunta ,Ragannaguda ,Abdullapurmet (M) RangaReddy Dist",
+            "jobrole": "Male Academic Counsellor",
+            "division": "Non Teaching",
+            "flipgridlink": "https://flipgrid.com/32b44ee4"
+        },
+        {
+            "id": "15",
+            "schoolname": "Next Education",
+            "location": "Moga, Punjab",
+            "jobrole": "PGT Chemistry for Grade 11 and 12",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/d21f7636"
+        },
+        {
+            "id": "16",
+            "schoolname": "Next Education",
+            "location": "Moga, Punjab",
+            "jobrole": "PGT Maths for Grade 11 and 12",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/770c8c4f"
+        },
+        {
+            "id": "17",
+            "schoolname": "Next Education",
+            "location": "Moga, Punjab",
+            "jobrole": "PGT COMMERCE for Grade 11 and 12",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/4eeb6dbf"
+        },
+        {
+            "id": "18",
+            "schoolname": "Next Education",
+            "location": "Moga, Punjab",
+            "jobrole": "PRT English for Grade 1 to 5",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/4bf978ce"
+        },
+        {
+            "id": "19",
+            "schoolname": "Next Education",
+            "location": "Moga, Punjab",
+            "jobrole": "Principal",
+            "division": "Leadership",
+            "flipgridlink": "https://flipgrid.com/9651a50a"
+        },
+        {
+            "id": "20",
+            "schoolname": "Next Education",
+            "location": "Kasargod, Kerala",
+            "jobrole": "English (Grade 1 to 5)",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/20481ef5"
+        },
+        {
+            "id": "21",
+            "schoolname": "Next Education",
+            "location": "Kasargod, Kerala",
+            "jobrole": "Maths (Grade 1 to 5)",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/1e66a9bf"
+        },
+        {
+            "id": "22",
+            "schoolname": "Next Education",
+            "location": "Kasargod, Kerala",
+            "jobrole": "Science (Grade 1 to 5)",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/6d3151f9"
+        },
+        {
+            "id": "23",
+            "schoolname": "Next Education",
+            "location": "Kasargod, Kerala",
+            "jobrole": "Computer (Grade 1 to 5)",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/98274ea5"
+        },
+        {
+            "id": "24",
+            "schoolname": "Next Education",
+            "location": "Kasargod, Kerala",
+            "jobrole": "Pre Primary",
+            "division": "Pre Primary",
+            "flipgridlink": "https://flipgrid.com/1ca24058"
+        },
+        {
+            "id": "25",
+            "schoolname": "Next Education",
+            "location": "Kasargod, Kerala",
+            "jobrole": "Principal",
+            "division": "Leadership",
+            "flipgridlink": "https://flipgrid.com/a75aef45"
+        },
+        {
+            "id": "26",
+            "schoolname": "Next Education",
+            "location": "Muzzafarpur , U.P",
+            "jobrole": "Science",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/6b2f87cb"
+        },
+        {
+            "id": "27",
+            "schoolname": "Next Education",
+            "location": "Muzzafarpur , U.P",
+            "jobrole": "Pre Primary",
+            "division": "Pre Primary",
+            "flipgridlink": "https://flipgrid.com/02926cba"
+        },
+        {
+            "id": "28",
+            "schoolname": "Next Education",
+            "location": "Muzzafarpur , U.P",
+            "jobrole": "Vice Principal",
+            "division": "Leadership",
+            "flipgridlink": "https://flipgrid.com/d6adc1ec"
+        },
+        {
+            "id": "29",
+            "schoolname": "Next Education",
+            "location": "Muzzafarpur , U.P",
+            "jobrole": "Principal",
+            "division": "Leadership",
+            "flipgridlink": "https://flipgrid.com/8fd27dc1"
+        },
+        {
+            "id": "30",
+            "schoolname": "Next Education",
+            "location": "Bhongir, Telangana",
+            "jobrole": "Maths (Grade 3 to 7)",
+            "division": "Middle School",
+            "flipgridlink": "https://flipgrid.com/9bb2ac16"
+        },
+        {
+            "id": "31",
+            "schoolname": "Next Education",
+            "location": "Bhongir, Telangana",
+            "jobrole": "Pre Primary",
+            "division": "Pre Primary",
+            "flipgridlink": "https://flipgrid.com/8c72287c"
+        },
+        {
+            "id": "32",
+            "schoolname": "Next Education",
+            "location": "Bhongir, Telangana",
+            "jobrole": "Principal",
+            "division": "Leadership",
+            "flipgridlink": "https://flipgrid.com/1fa3b9a4"
+        },
+        {
+            "id": "33",
+            "schoolname": "Next Education",
+            "location": "Haveri, Karnataka",
+            "jobrole": "Pre Primary",
+            "division": "Pre Primary",
+            "flipgridlink": "https://flipgrid.com/f912da02"
+        },
+        {
+            "id": "34",
+            "schoolname": "Next Education",
+            "location": "Haveri, Karnataka",
+            "jobrole": "Mother teacher (Grade 1 & Grade 2)",
+            "division": "Pre Primary",
+            "flipgridlink": "https://flipgrid.com/bc3515ae"
+        },
+        {
+            "id": "35",
+            "schoolname": "Next Education",
+            "location": "Haveri, Karnataka",
+            "jobrole": "English (TGT)",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/b4af1269"
+        },
+        {
+            "id": "36",
+            "schoolname": "Next Education",
+            "location": "Haveri, Karnataka",
+            "jobrole": "Social Science & English combination (PRT)",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/117d4874"
+        },
+        {
+            "id": "37",
+            "schoolname": "Next Education",
+            "location": "Haveri, Karnataka",
+            "jobrole": "Maths (PRT)",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/b6f926fc"
+        },
+        {
+            "id": "38",
+            "schoolname": "Next Education",
+            "location": "Haveri, Karnataka",
+            "jobrole": "Social Science ( TGT)",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/10a1ed89"
+        },
+        {
+            "id": "39",
+            "schoolname": "Next Education",
+            "location": "Haveri, Karnataka",
+            "jobrole": "Hindi (PRT/TGT)",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/146930f0"
+        },
+        {
+            "id": "40",
+            "schoolname": "Next Education",
+            "location": "Haveri, Karnataka",
+            "jobrole": "Science (PRT/TGT)",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/a7d14807"
+        },
+        {
+            "id": "41",
+            "schoolname": "Next Education",
+            "location": "Haveri, Karnataka",
+            "jobrole": "Principal",
+            "division": "Leadership",
+            "flipgridlink": "https://flipgrid.com/90aed8f2"
+        },
+        {
+            "id": "42",
+            "schoolname": "Next Education",
+            "location": "Buxar, Bihar",
+            "jobrole": "English",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/1e05a173"
+        },
+        {
+            "id": "43",
+            "schoolname": "Next Education",
+            "location": "Buxar, Bihar",
+            "jobrole": "Maths",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/a06510d9"
+        },
+        {
+            "id": "44",
+            "schoolname": "Next Education",
+            "location": "Buxar, Bihar",
+            "jobrole": "Social",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/6d13f51a"
+        },
+        {
+            "id": "45",
+            "schoolname": "Next Education",
+            "location": "Buxar, Bihar",
+            "jobrole": "Science (Grade 4 to 8)",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/e2d37da1"
+        },
+        {
+            "id": "46",
+            "schoolname": "Next Education",
+            "location": "Buxar, Bihar",
+            "jobrole": "Principal",
+            "division": "Leadership",
+            "flipgridlink": "https://flipgrid.com/a06148a2"
+        },
+        {
+            "id": "47",
+            "schoolname": "Next Education",
+            "location": "Thiruppatur, T.N",
+            "jobrole": "Vice Principal",
+            "division": "Leadership",
+            "flipgridlink": "https://flipgrid.com/4decca83"
+        },
+        {
+            "id": "48",
+            "schoolname": "Next Education",
+            "location": "Thiruppatur, T.N",
+            "jobrole": "Principal",
+            "division": "Leadership",
+            "flipgridlink": "https://flipgrid.com/279ea512"
+        },
+        {
+            "id": "49",
+            "schoolname": "Next Education",
+            "location": "Hapur, U.P",
+            "jobrole": "Vice Principal",
+            "division": "Leadership",
+            "flipgridlink": "https://flipgrid.com/b8c31270"
+        },
+        {
+            "id": "50",
+            "schoolname": "Next Education",
+            "location": "Hapur, U.P",
+            "jobrole": "Principal",
+            "division": "Leadership",
+            "flipgridlink": "https://flipgrid.com/adc3b047"
+        },
+        {
+            "id": "51",
+            "schoolname": "Next Education",
+            "location": "Theni, T.N",
+            "jobrole": "Vice Principal",
+            "division": "Leadership",
+            "flipgridlink": "https://flipgrid.com/d12c418b"
+        },
+        {
+            "id": "52",
+            "schoolname": "Next Education",
+            "location": "Theni, T.N",
+            "jobrole": "Principal",
+            "division": "Leadership",
+            "flipgridlink": "https://flipgrid.com/ef8afac7"
+        },
+        {
+            "id": "53",
+            "schoolname": "Next Education",
+            "location": "Theni, T.N",
+            "jobrole": "English (PRT)",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/c7f45879"
+        },
+        {
+            "id": "54",
+            "schoolname": "Next Education",
+            "location": "Haveri, Karnataka",
+            "jobrole": "Science (TGT)",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/02f7b709"
+        },
+        {
+            "id": "55",
+            "schoolname": "Next Education",
+            "location": "Haveri, Karnataka",
+            "jobrole": "English (TGT)",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/95af5810"
+        },
+        {
+            "id": "56",
+            "schoolname": "Next Education",
+            "location": "Haveri, Karnataka",
+            "jobrole": "Computer Science",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/958d5132"
+        },
+        {
+            "id": "57",
+            "schoolname": "Next Education",
+            "location": "Haveri, Karnataka",
+            "jobrole": "Vice Principal",
+            "division": "Leadership",
+            "flipgridlink": "https://flipgrid.com/97d3d36d"
+        },
+        {
+            "id": "58",
+            "schoolname": "Pearl Infinity School",
+            "location": "Huzurnagar , Suryapet , Telangana",
+            "jobrole": "Maths TGT, Salary 20-25K, Requirement - 1",
+            "division": "Middle School",
+            "flipgridlink": "https://flipgrid.com/39c453bf"
+        },
+        {
+            "id": "59",
+            "schoolname": "Pearl Infinity School",
+            "location": "Huzurnagar , Suryapet , Telangana",
+            "jobrole": "IIT Chemistry",
+            "flipgridlink": "https://flipgrid.com/0ef9e1e0"
+        },
+        {
+            "id": "60",
+            "schoolname": "Pearl Infinity School",
+            "location": "Huzurnagar , Suryapet , Telangana",
+            "jobrole": "IIT Physics",
+            "flipgridlink": "https://flipgrid.com/fadde287"
+        },
+        {
+            "id": "61",
+            "schoolname": "Pearl Infinity School",
+            "location": "Huzurnagar , Suryapet , Telangana",
+            "jobrole": "IIT Mathematics",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/83b5b583"
+        },
+        {
+            "id": "62",
+            "schoolname": "Pearl Infinity School",
+            "location": "Huzurnagar , Suryapet , Telangana",
+            "jobrole": "English Teacher Primary School",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/67424067"
+        },
+        {
+            "id": "63",
+            "schoolname": "Pearl Infinity School",
+            "location": "Huzurnagar , Suryapet , Telangana",
+            "jobrole": "English Teacher Middle School",
+            "division": "Middle School",
+            "flipgridlink": "https://flipgrid.com/4480fc3a"
+        },
+        {
+            "id": "64",
+            "schoolname": "Pearl Infinity School",
+            "location": "Huzurnagar , Suryapet , Telangana",
+            "jobrole": "Social Studies teacher",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/a428da65"
+        },
+        {
+            "id": "65",
+            "schoolname": "Pearl Infinity School",
+            "location": "Huzurnagar , Suryapet , Telangana",
+            "jobrole": "Social Studies teacher High School),",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/5046b59a"
+        },
+        {
+            "id": "66",
+            "schoolname": "Pearl Infinity School",
+            "location": "Huzurnagar , Suryapet , Telangana",
+            "jobrole": "Hindi TGT & PGT, Salary 20-25K, Requirement- 2",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/91ad63af"
+        },
+        {
+            "id": "67",
+            "schoolname": "Eras For Teachers",
+            "location": "Warangal, Telangana",
+            "jobrole": "EVS prt",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/63e87f04"
+        },
+        {
+            "id": "68",
+            "schoolname": "Eras For Teachers",
+            "location": "Warangal, Telangana",
+            "jobrole": "Hindi(tgt)",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/1bee93a0"
+        },
+        {
+            "id": "69",
+            "schoolname": "Eras For Teachers",
+            "location": "Warangal, Telangana",
+            "jobrole": "Social(tgt)",
+            "division": "Middle School",
+            "flipgridlink": "https://flipgrid.com/b2271cea"
+        },
+        {
+            "id": "70",
+            "schoolname": "Eras For Teachers",
+            "location": "Warangal, Telangana",
+            "jobrole": "Music teacher",
+            "division": "Middle School",
+            "flipgridlink": "https://flipgrid.com/d77c21eb"
+        },
+        {
+            "id": "71",
+            "schoolname": "Eras For Teachers",
+            "location": "Warangal, Telangana",
+            "jobrole": "PET",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/fb28487e"
+        },
+        {
+            "id": "72",
+            "schoolname": "Eras For Teachers",
+            "location": "Warangal, Telangana",
+            "jobrole": "French teacher",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/7a820d37"
+        },
+        {
+            "id": "73",
+            "schoolname": "Eras For Teachers",
+            "location": "Warangal, Telangana",
+            "jobrole": "Counsellor cum academic co-ordinator",
+            "division": "Leadership",
+            "flipgridlink": "https://flipgrid.com/af71e0f4"
+        },
+        {
+            "id": "74",
+            "schoolname": "Eras For Teachers",
+            "location": "Warangal, Telangana",
+            "jobrole": "lady principal",
+            "division": "Leadership",
+            "flipgridlink": "https://flipgrid.com/aff25eed"
+        },
+        {
+            "id": "75",
+            "schoolname": "Eras For Teachers",
+            "location": "Gurdaspur, Punjab",
+            "jobrole": "Mother teachers 3",
+            "division": "Pre Primary",
+            "flipgridlink": "https://flipgrid.com/c371b81c"
+        },
+        {
+            "id": "76",
+            "schoolname": "Eras For Teachers",
+            "location": "Gurdaspur, Punjab",
+            "jobrole": "Primary English ICSE",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/a5d48351"
+        },
+        {
+            "id": "77",
+            "schoolname": "Eras For Teachers",
+            "location": "Gurdaspur, Punjab",
+            "jobrole": "Primary Social ICSE",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/731eb484"
+        },
+        {
+            "id": "78",
+            "schoolname": "Eras For Teachers",
+            "location": "Gurdaspur, Punjab",
+            "jobrole": "Tgt social ICSE",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/00b5d547"
+        },
+        {
+            "id": "79",
+            "schoolname": "Eras For Teachers",
+            "location": "Gurdaspur, Punjab",
+            "jobrole": "TGT Science ICSE",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/39bee601"
+        },
+        {
+            "id": "80",
+            "schoolname": "Eras For Teachers",
+            "location": "Alwar, Rajasthan",
+            "jobrole": "TGT English",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/c32755de"
+        },
+        {
+            "id": "81",
+            "schoolname": "Eras For Teachers",
+            "location": "Alwar, Rajasthan",
+            "jobrole": "TGT Social",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/a8ce782a"
+        },
+        {
+            "id": "82",
+            "schoolname": "Eras For Teachers",
+            "location": "Alwar, Rajasthan",
+            "jobrole": "Physics",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/56317c67"
+        },
+        {
+            "id": "83",
+            "schoolname": "Eras For Teachers",
+            "location": "Alwar, Rajasthan",
+            "jobrole": "CHEMISTRY - PGT - 2",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/c0168837"
+        },
+        {
+            "id": "84",
+            "schoolname": "Eras For Teachers",
+            "location": "Bhilwara, Rajasthan",
+            "jobrole": "TGT : English (01)",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/03fbad40"
+        },
+        {
+            "id": "85",
+            "schoolname": "Eras For Teachers",
+            "location": "Bhilwara, Rajasthan",
+            "jobrole": "TGT: Social (01)",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/b8e59217"
+        },
+        {
+            "id": "86",
+            "schoolname": "Eras For Teachers",
+            "location": "Bhilwara, Rajasthan",
+            "jobrole": "PRT: English (02",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/8d2f4576"
+        },
+        {
+            "id": "87",
+            "schoolname": "Eras For Teachers",
+            "location": "Bhilwara, Rajasthan",
+            "jobrole": "PRT: Social (02)",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/b8b89df4"
+        },
+        {
+            "id": "88",
+            "schoolname": "Eras For Teachers",
+            "location": "Siwan, Bihar",
+            "jobrole": "TGT : Physics",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/65d289bd"
+        },
+        {
+            "id": "89",
+            "schoolname": "Eras For Teachers",
+            "location": "Siwan, Bihar",
+            "jobrole": "TGT: Chemistry",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/37950dea"
+        },
+        {
+            "id": "90",
+            "schoolname": "Eras For Teachers",
+            "location": "Siwan, Bihar",
+            "jobrole": "TGT: Biology",
+            "division": "High School",
+            "flipgridlink": "https://flipgrid.com/9cad84d4"
+        },
+        {
+            "id": "91",
+            "schoolname": "Eras For Teachers",
+            "location": "Siwan, Bihar",
+            "jobrole": "PRT : Math",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/ec9ab3ea"
+        },
+        {
+            "id": "92",
+            "schoolname": "Eras For Teachers",
+            "location": "Siwan, Bihar",
+            "jobrole": "PRT : Science",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/801036ee"
+        },
+        {
+            "id": "93",
+            "schoolname": "Tejasvi Vidyaranya",
+            "location": "Habsiguda, Hyderabad",
+            "jobrole": "Social",
+            "division": "Middle School",
+            "flipgridlink": "https://flipgrid.com/8afb5f19"
+        },
+        {
+            "id": "94",
+            "schoolname": "Tejasvi Vidyaranya",
+            "location": "Habsiguda, Hyderabad",
+            "jobrole": "English",
+            "division": "Middle School",
+            "flipgridlink": "https://flipgrid.com/9d83c655"
+        },
+        {
+            "id": "95",
+            "schoolname": "Tejasvi Vidyaranya",
+            "location": "Habsiguda, Hyderabad",
+            "jobrole": "Hindi",
+            "division": "Middle School",
+            "flipgridlink": "https://flipgrid.com/dd6b70a0"
+        },
+        {
+            "id": "96",
+            "schoolname": "Tejasvi Vidyaranya",
+            "location": "Habsiguda, Hyderabad",
+            "jobrole": "Telugu",
+            "division": "Middle School",
+            "flipgridlink": "https://flipgrid.com/eed8f285"
+        },
+        {
+            "id": "97",
+            "schoolname": "Tejasvi Vidyaranya",
+            "location": "Habsiguda, Hyderabad",
+            "jobrole": "Math",
+            "division": "Middle School",
+            "flipgridlink": "https://flipgrid.com/9c7f20f1"
+        },
+        {
+            "id": "98",
+            "schoolname": "The Star School",
+            "location": "Khairtabad, Hyderabad",
+            "jobrole": "English Teacher",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/5e01ab4a"
+        },
+        {
+            "id": "99",
+            "schoolname": "The Star School",
+            "location": "Khairtabad, Hyderabad",
+            "jobrole": "Pre Primary Teachers",
+            "division": "Pre Primary",
+            "flipgridlink": "https://flipgrid.com/2dd81b94"
+        },
+        {
+            "id": "100",
+            "schoolname": "The Star School",
+            "location": "Khairtabad, Hyderabad",
+            "jobrole": "Home Room Teachers (Primary for Grades 1-4)",
+            "division": "Primary",
+            "flipgridlink": "https://flipgrid.com/8d9895f5"
+        },
+        {
+            "id": "101",
+            "schoolname": "The Star School",
+            "location": "Khairtabad, Hyderabad",
+            "jobrole": "Telugu Teacher - 1",
+            "division": "Middle School",
+            "flipgridlink": "https://flipgrid.com/61e87e84"
+        },
+        {
+            "id": "102",
+            "schoolname": "The Star School",
+            "location": "Khairtabad, Hyderabad",
+            "jobrole": "Science Teacher (for middle school)- 1",
+            "division": "Middle School",
+            "flipgridlink": "https://flipgrid.com/af1438a2"
+        },
+        {
+            "id": "103",
+            "schoolname": "The Star School",
+            "location": "Khairtabad, Hyderabad",
+            "jobrole": "Computer Teacher - 1",
+            "division": "Middle School",
+            "flipgridlink": "https://flipgrid.com/5e1d58c6"
+        },
+        {
+            "id": "104",
+            "schoolname": "The Star School",
+            "location": "Khairtabad, Hyderabad",
+            "jobrole": "Art and Craft Teacher - 1 -",
+            "division": "Middle School",
+            "flipgridlink": "https://flipgrid.com/f45aa6c7"
+        },
+        {
+            "id": "105",
+            "schoolname": "The Star School",
+            "location": "Khairtabad, Hyderabad",
+            "jobrole": "PE Teacher - 1",
+            "division": "Middle School",
+            "flipgridlink": "https://flipgrid.com/2c17270a"
+        },
+        {
+            "id": "106",
+            "schoolname": "Next Education",
+            "location": "Sirsagunj, U.P",
+            "jobrole": "Principal",
+            "division": "Leadership",
+            "flipgridlink": "https://flipgrid.com/66a1e6b0"
+        },
+        {
+            "id": "107",
+            "schoolname": "Next Education",
+            "location": "Hapur, U.P",
+            "jobrole": "Senior Academician",
+            "division": "Leadership",
+            "flipgridlink": "https://flipgrid.com/04a413ef"
+        },
+        {
+            "id": "108",
+            "schoolname": "Next Education",
+            "location": "Sirsagunj , UP",
+            "jobrole": "Senior Academician",
+            "division": "Leadership",
+            "flipgridlink": "https://flipgrid.com/c629732d"
+        },
+        {
+            "id": "109",
+            "schoolname": "Next Education",
+            "location": "Bhopal, M.P",
+            "jobrole": "Senior Academician",
+            "division": "Leadership",
+            "flipgridlink": "https://flipgrid.com/76cca818"
+        },
+        {
+            "id": "110",
+            "schoolname": "Next Education",
+            "location": "Mandi, Rajasthan",
+            "jobrole": "Senior Academician",
+            "division": "Leadership",
+            "flipgridlink": "https://flipgrid.com/efed33b4"
+        },
+        {
+            "id": "111",
+            "schoolname": "Next Education",
+            "location": "Theni, T.N",
+            "jobrole": "Principal",
+            "division": "Leadership",
+            "flipgridlink": "https://flipgrid.com/ef8afac7"
+        }
+    ]
 }

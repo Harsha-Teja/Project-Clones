@@ -5,29 +5,38 @@
 
 .app {
   background-image: url('bgm.svg');
-  width: 100vw;
   border: 2px solid var(--block-color);
+}
+
+
+
+.mainlogo{
+  border: 2px solid var(--block-color);
+  width: 25%;
+  margin-left: 37%;
+  margin-top: 20px;
 }
 
 .maintitle {
   border: 2px solid var(--block-color);
-  padding-top: 1em;
+  padding-top: 2em;
   margin-bottom: 10px;
   text-align: center;
-  font-size: 44px;
+  font-size: 60px;
 }
   
 .subtitle {
   border: 2px solid var(--block-color);
   text-align: center;
   margin-bottom: 10px;
-  font-size: 24px;
+  font-size: 22px;
 }
-  
+
 .description {
   border: 2px solid var(--block-color);
   text-align: center;
   font-size: 14px;
+  margin-top: 10px;
 }
 
 .container {
@@ -71,8 +80,10 @@
   margin-top: 20px;
   margin-right: 10px;
   margin-left: 35px;
+  margin-bottom: 10px;
   padding: 10px;
   background: rgba(212, 16, 28, 0.06);
+  box-shadow: 24px 18px 11px -5px rgba(0,0,0,0.1);
   border-radius: 20px;
 }
 
@@ -86,25 +97,30 @@
 
 .form{
   border: 2px solid var(--block-color);
-  width: 360px;
+  width: 40%;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 2em;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .formsubject{
-  border: 1px solid #d4101c;
+  border: 2px solid #d4101c;
   border-radius: 20px;
-  padding: 10px;
-  margin: 5px;
-  background: transparent;
+  padding: 20px 90px;
+  background: white;
+}
+
+.formsubject::placeholder{
+  font-size: 16px;
 }
 
 .formdivision{
-  border: 1px solid #d4101c;
+  border: 2px solid #d4101c;
   border-radius: 20px;
-  padding: 10px;
-  background: transparent;
+  padding: 20px 90px;
+  background: white;
+  align-items: center;
 }
 
 .detailtitlelistlink{
@@ -134,10 +150,44 @@ small {
   font-size: 8px;
 }
 
+@media screen and (max-width: 1170px) {
+
+  .form{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .formsubject{
+    border: 2px solid #d4101c;
+    border-radius: 20px;
+    padding: 20px 60px;
+    background: white;
+    margin-bottom: 10px;
+  }
+  
+  .formdivision{
+    border: 2px solid #d4101c;
+    border-radius: 20px;
+    padding: 20px 60px;
+    background: white; 
+  }
+
+  .details{
+    margin-bottom: 10px;
+  }
+  
+
+}
+
+
+/* ------------------------------------------------------ */
 /* In mobile */
+/* ------------------------------------------------------ */
 @media screen and (max-width: 1050px) {
+  
   .maintitle {
-    font-size: 34px;
+    font-size: 40px;
     width: 80%;
     margin: auto;
     margin-top: 10px;
@@ -162,9 +212,32 @@ small {
     grid-template-columns: 1fr;
   }
 
+  .form{
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .formsubject{
+    border: 2px solid #d4101c;
+    border-radius: 20px;
+    padding: 20px 60px;
+    background: white;
+    margin-bottom: 10px;
+  }
+  
+  .formdivision{
+    border: 2px solid #d4101c;
+    border-radius: 20px;
+    padding: 20px 60px;
+    background: white;
+  }
+
   .details{
     width: 80%;
     margin: auto;
+    margin-bottom: 20px;
   }
   
   .detailssplitdata{
@@ -186,22 +259,22 @@ small {
 @media screen and (max-width: 520px) {
 
   .maintitle {
-    font-size: 16px;
-    width: 60%;
+    font-size: 37px;
+    width: 90%;
     margin: auto;
     margin-top: 5px;
   }
     
   .subtitle {
-    font-size: 12px;
-    width: 60%;
+    font-size: 16px;
+    width: 90%;
     margin: auto;
     margin-top: 5px;
   }
     
   .description {
-    font-size: 9px;
-    width: 60%;
+    font-size: 12px;
+    width: 90%;
     margin: auto;
     margin-top: 5px;
   }
@@ -237,5 +310,26 @@ small {
   .detailtitlelist{
     font-size: 14px;
   }
+
+  .form{
+    width: 100%;
+
+  }
+  
+  .formsubject{
+    border: 2px solid #d4101c;
+    border-radius: 20px;
+    padding: 20px 50px;
+    background: white;
+    margin-bottom: 10px;
+  }
+  
+  .formdivision{
+    border: 2px solid #d4101c;
+    border-radius: 20px;
+    padding: 20px 50px;
+    background: white;
+  }
+
   
 }
