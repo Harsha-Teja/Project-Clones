@@ -24,7 +24,7 @@ function App() {
                         type="text"
                         name="subject"
                         id="subject"
-                        placeholder="Search for a JobRole..."
+                        placeholder="Enter the subject you teach"
                         className="formsubject"
                         onChange={event => {setSearchSub(event.target.value)}}
             />
@@ -50,7 +50,7 @@ function App() {
                   if (searchdiv === '' || searchsub === ''){
                     return data
                   }
-                  else if ((data.division !== "") && searchsub === ''
+                  else if (data.jobrole.toLocaleLowerCase().includes(searchsub.toLocaleLowerCase()) && searchdiv === ''
                   ){
                     return data
                   } 
