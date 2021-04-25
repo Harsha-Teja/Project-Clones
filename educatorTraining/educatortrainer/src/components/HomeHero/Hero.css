@@ -1,0 +1,91 @@
+/* 
+classes
+Hero
+hero-illustration
+hero-content
+hero-content-container
+hero-content-title
+hero-content-text
+hero-content-button
+hero-content-button-1
+hero-content-button-2 */
+
+img{
+    width: 400px;
+    height: 400px;
+}
+
+.hero-content-button-1 .hero-content-button-2 {
+    background: transparent;
+    border-radius: 20px;
+    padding: 7px;
+    border-color: green;
+}
+
+.hero {
+    border: var(--measure);
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.hero-illustration{
+    border: var(--measure);
+    margin-left: 15%;
+}
+
+.hero-content{
+    border: var(--measure);
+    margin-left: 6%;
+}
+
+.hero-content-container{
+    border: var(--measure);
+    margin-top: 25%;
+}
+
+.hero-content-title {
+    border: var(--measure);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hero-content-text{
+    border: var(--measure);
+    font-size: 14px;
+    text-align: center;
+}
+
+.hero-content-button{
+    border: var(--measure);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.hero-content-button-1{
+    background: transparent;
+    border: 2px solid green;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hero-content-button-2{
+    margin-left: 20px;
+    background: transparent;
+    border: 2px solid green;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hero-content-button-2:hover,  
+.hero-content-button-1:hover{
+    background: green;
+    color: white;
+}

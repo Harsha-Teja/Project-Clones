@@ -1,0 +1,40 @@
+.carousle-full{
+    border: var(--measure);
+    margin: auto;
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 70%;
+}
+
+.carousle-title{
+    text-align: center;
+    border: var(--measure);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.carousle-image{
+    border: var(--measure);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.carousletwo-image{
+    border: var(--measure);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.carousle-text{
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.carousle-img{
+    height: 100px;
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+

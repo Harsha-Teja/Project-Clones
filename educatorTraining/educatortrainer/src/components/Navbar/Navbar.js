@@ -1,7 +1,6 @@
 import {NavLink} from "react-router-dom";
 import React,{useState} from "react";
 import "./Navbar.css";
-import HouseTutoring from "../../Assets/images/HouseTutoring.png";
 
 
 function Navbar () {
@@ -10,10 +9,12 @@ function Navbar () {
     return (
        <div>
            <nav className="navbar">
-            <NavLink to="/" onClick={() => setIsOpen(false)}>
-               <img src={HouseTutoring} alt="Housetutoring logo" className="logo"/>
+            <NavLink to="/" onClick={() => setIsOpen(false)} className="logoname">
+               {/* <img src={HouseTutoring} alt="Housetutoring logo" className="logo"/> */}
+               <h1 className="logo" >Educator Trainers</h1>
             </NavLink>
                <ul className="nav-links" style={{transform: isOpen ? "translateX(0px)" : ""}} >
+                   {/* Home */}
                     <li className="navbarli">
                     <NavLink 
                         exact={true}
@@ -21,38 +22,30 @@ function Navbar () {
                         className="nav-link" 
                         onClick={() => setIsOpen(false)}
                         activeStyle={{
-                            borderBottom: "2px solid green",
+                            borderBottom: "2px solid #d4101c",
                             }}
                         >
                         Home
                     </NavLink>
                     </li>
+                    {/* Programs */}
                     <li className="navbarli">
-                    <NavLink to="/findmetutor" className="nav-link" onClick={() => setIsOpen(false)} activeStyle={{
-                            borderBottom: "2px solid green",
+                    <NavLink to="/Programs" className="nav-link" onClick={() => setIsOpen(false)} activeStyle={{
+                            borderBottom: "2px solid #d4101c",
                             }}>
-                        Find me Tutor
+                        Programs
                     </NavLink>
                     </li>
-                    <li className="navbarli">
-                    <NavLink to="/becometutor" className="nav-link" onClick={() => setIsOpen(false)} activeStyle={{
-                            borderBottom: "2px solid green",
-                            }}>
-                        Become Tutor
-                    </NavLink>
-                    </li>
+                    {/* About Us */}
                     <li className="navbarli">
                     <NavLink to="about" className="nav-link" onClick={() => setIsOpen(false)} activeStyle={{
-                            borderBottom: "2px solid green",
+                            borderBottom: "2px solid #d4101c",
                             }}>
                         About Us
                     </NavLink>
                     </li>
                     <div className="button" onClick={() => setIsOpen(false)}>
-                        <div className="button-text"> BOOK FREE DEMO</div>
-                    </div>
-                    <div className="button" onClick={() => setIsOpen(false)}>
-                        <div className="button-text1"> <a href="#" style={{
+                        <div className="button-text1"> <a href="https://teacherr.in" style={{
                             textDecoration:"none",
                             color: "white"
                             }} >Login</a></div>
