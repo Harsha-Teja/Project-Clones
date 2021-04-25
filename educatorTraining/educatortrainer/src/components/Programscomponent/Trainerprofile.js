@@ -7,7 +7,7 @@ function Trainerprofile () {
             <div className="cards-whyht-title">
                 Our Trainers
             </div>
-            <div className="cards-rows">
+            <div className="trainer-cards-rows">
                 <div className="cards-whyht-rowone">
                     <div className="cards-whyht-rowone-card">
                         <i className="fas fa-money-check-alt cards-whyht-row-cardicon"></i>
@@ -21,8 +21,8 @@ function Trainerprofile () {
                          </div>  
                     </div>
                 </div>
-                <div className="cards-whyht-rowtwo">
-                    <div className="cards-whyht-rowtwo-card">
+                <div className="cards-whyht-rowone">
+                    <div className="cards-whyht-rowone-card">
                         <i className="fas fa-money-check-alt cards-whyht-row-cardicon"></i>
                         <div className="cards-whyht-row-cardtitle"> Expert tutors</div>
                         <div className="tutorprofile-card-text">
@@ -34,8 +34,8 @@ function Trainerprofile () {
                          </div>  
                     </div>
                 </div>
-                <div className="cards-whyht-rowtwo">
-                    <div className="cards-whyht-rowtwo-card">
+                <div className="cards-whyht-rowone">
+                    <div className="cards-whyht-rowone-card">
                         <i className="fas fa-money-check-alt cards-whyht-row-cardicon"></i>
                         <div className="cards-whyht-row-cardtitle"> Expert tutors</div>
                         <div className="tutorprofile-card-text">
@@ -47,8 +47,8 @@ function Trainerprofile () {
                          </div>  
                     </div>
                 </div>
-                <div className="cards-whyht-rowtwo">
-                    <div className="cards-whyht-rowtwo-card">
+                <div className="cards-whyht-rowone">
+                    <div className="cards-whyht-rowone-card">
                         <i className="fas fa-money-check-alt cards-whyht-row-cardicon"></i>
                         <div className="cards-whyht-row-cardtitle"> Expert tutors</div>
                         <div className="tutorprofile-card-text">

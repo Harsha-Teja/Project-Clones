@@ -36,7 +36,7 @@ function About () {
                     <div className="cards-container">
                     <i className="far fa-clipboard cards-cardicon"></i>
                         <div className="cards-cardtitle">
-                            1 Profiling
+                            Mission
                         </div>
                         <div className="cards-cardtext">
                             Note that the development build is not optimized.
@@ -48,7 +48,7 @@ function About () {
                     <div className="cards-container">
                     <i className="far fa-clipboard cards-cardicon"></i>
                         <div className="cards-cardtitle">
-                            1 Profiling
+                            Vision
                         </div>
                         <div className="cards-cardtext">
                             Note that the development build is not optimized.
@@ -63,7 +63,7 @@ function About () {
                     <div className="cards-container">
                     <i className="far fa-clipboard cards-cardicon"></i>
                         <div className="cards-cardtitle">
-                            1 Profiling
+                            Impact
                         </div>
                         <div className="cards-cardtext">
                             Note that the development build is not optimized.
@@ -75,7 +75,7 @@ function About () {
                     <div className="cards-container">
                     <i className="far fa-clipboard cards-cardicon"></i>
                         <div className="cards-cardtitle">
-                            1 Profiling
+                            Our Moto
                         </div>
                         <div className="cards-cardtext">
                             Note that the development build is not optimized.
@@ -122,6 +122,7 @@ function About () {
         </div>
         {/* FAQ section here */}
         <Accordion defaultActiveKey="0" className="accordian">
+            <h1 className="aboutusfaq">FAQ's</h1>
             <Card>
                 <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="0" className="accordianquestion">

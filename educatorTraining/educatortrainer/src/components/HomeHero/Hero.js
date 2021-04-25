@@ -1,5 +1,5 @@
 import React from "react";
-import heroillustration from "../../assets/svg/hero-illustration.svg";
+import heroillustration from "../../assets/svg/Teaching.svg";
 import "./Hero.css"
 
 function Hero ({title, text}) {

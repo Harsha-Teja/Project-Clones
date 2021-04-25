@@ -68,7 +68,7 @@
     margin-bottom: 10px;
     margin-left: 15px;
     background: transparent;
-    border: 1px solid green;
+    border: 1px solid #D4101C;
 }
     
 .contactemaillabel{
@@ -85,7 +85,7 @@
     margin-bottom: 10px;
     margin-left: 15px;
     background: transparent;
-    border: 1px solid green;
+    border: 1px solid #D4101C;
 }
     
 .contactphonelabel{
@@ -102,7 +102,7 @@
     margin-bottom: 10px;
     margin-left: 15px;
     background: transparent;
-    border: 1px solid green;
+    border: 1px solid #D4101C;
 }
     
 .contactmessagelabel{
@@ -120,7 +120,7 @@
     margin-bottom: 10px;
     margin-left: 15px;
     background: transparent;
-    border: 1px solid green;
+    border: 1px solid #D4101C;
     text-align: start;
 }
     
@@ -129,14 +129,14 @@
     width: 100px;
     margin-left: 300px;
     background: transparent;
-    border: 2px solid green;
+    border: 2px solid #D4101C;
     border-radius: 20px;
     padding: 5px;
     cursor: pointer;
 }
 
 .contactbutton:hover{
-    background: green;
+    background: #D4101C;
     color: white;
 }
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { useFormik } from 'formik'
 import emailjs from "emailjs-com"
-import demo from "../../assets/svg/demo.svg"
+import demo from "../../assets/svg/enquiry.svg"
 import "./DemoForm.css"
 
 export function DemoForm () {

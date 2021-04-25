@@ -73,7 +73,7 @@
 .demonameinput{
     display: block;
     border: var(--measure);
-    border: 1px green solid;
+    border: 1px #D4101C solid;
     width: 100%;
     max-width: 300px;
     border-radius: 5px;
@@ -97,7 +97,7 @@
     margin-top: 5px;
     margin-bottom: 10px;
     margin-left: 15px;
-    border: 1px green solid;
+    border: 1px #D4101C solid;
 }
     
 .demophonelabel{
@@ -115,7 +115,7 @@
     margin-top: 5px;
     margin-bottom: 10px;
     margin-left: 15px;
-    border: 1px green solid;
+    border: 1px #D4101C solid;
 }
     
 .demomessagelabel{
@@ -137,7 +137,7 @@
 }
     
 .demobutton{
-    border: 2px solid green;
+    border: 2px solid #D4101C;
     width: 100px;
     margin-left: 100px;
     background: transparent;
@@ -147,7 +147,7 @@
 }
 
 .demobutton:hover{
-    background: green;
+    background: #D4101C;
     color: white;
 }
 

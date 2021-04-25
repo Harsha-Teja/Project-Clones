@@ -1,7 +1,7 @@
 import React from "react"
 import "./Programs.css"
 import Hero from "../HomeHero/Hero"
-import heroillustration from "../../assets/svg/hero-illustration-two.svg";
+import heroillustration from "../../assets/svg/Teaching.svg";
 import DemoForm from "../Home/DemoForm";
 import Programdropdown from "./Programdropdown"
 
@@ -9,7 +9,7 @@ import Programdropdown from "./Programdropdown"
 function Programs(){
     return(
         <div>
-            <Hero Hero= {heroillustration} title="We hand pick the perfect tutor for you" text="Note that the development build is not optimized.
+            <Hero Hero= {heroillustration} title="Choose the programs and learn them from our best of the industry faculty" text="Note that the development build is not optimized.
                             To create a production build, use npm run build.Note that the development build is not optimized.
                             To create a production build, use npm run build."/>
             <Programdropdown />

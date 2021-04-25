@@ -10,6 +10,10 @@ hero-content-button
 hero-content-button-1
 hero-content-button-2 */
 
+*{
+    --main-color: #d4101c;
+}
+
 img{
     width: 400px;
     height: 400px;
@@ -19,7 +23,7 @@ img{
     background: transparent;
     border-radius: 20px;
     padding: 7px;
-    border-color: green;
+    border-color: var(--main-color);
 }
 
 .hero {
@@ -69,7 +73,7 @@ img{
 
 .hero-content-button-1{
     background: transparent;
-    border: 2px solid green;
+    border: 2px solid var(--main-color);
     padding: 10px;
     border-radius: 20px;
     cursor: pointer;
@@ -78,7 +82,7 @@ img{
 .hero-content-button-2{
     margin-left: 20px;
     background: transparent;
-    border: 2px solid green;
+    border: 2px solid var(--main-color);
     padding: 10px;
     border-radius: 20px;
     cursor: pointer;
@@ -86,6 +90,6 @@ img{
 
 .hero-content-button-2:hover,  
 .hero-content-button-1:hover{
-    background: green;
+    background: var(--main-color);
     color: white;
 }

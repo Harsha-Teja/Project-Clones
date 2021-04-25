@@ -75,7 +75,7 @@
 }
 
 .tutorprofiledetailone1subjectdiv{
-    border: 2px solid green;
+    border: 2px solid #D4101C;
     margin-left: 5px;
     border-radius: 15px;
     padding: 8px;
@@ -83,17 +83,17 @@
 }
 
 .tutorprofiledetailone1button{
-    border: 2px solid green ;
+    border: 2px solid #D4101C ;
     border-radius: 15px;
     padding: 10px;
-    margin-left: 125px;
-    margin-top: 39px;
+    margin-top: 10%;
+    margin-left: 40%;
     background: transparent;
     cursor: pointer;
 }
 
 .tutorprofiledetailone1button:hover{
-    background: green;
+    background: #D4101C;
     color: white;
 }
 
@@ -115,7 +115,7 @@
     font-size: 20px;
     font-weight: bold;
     text-align: start;
-    color: green;
+    color: #D4101C;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -130,7 +130,7 @@
     font-size: 20px;
     font-weight: bold;
     text-align: start;
-    color: green;
+    color: #D4101C;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -145,7 +145,7 @@
     font-size: 20px;
     font-weight: bold;
     text-align: start;
-    color: green;
+    color: #D4101C;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -160,7 +160,7 @@
     font-size: 20px;
     font-weight: bold;
     text-align: start;
-    color: green;
+    color: #D4101C;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -168,6 +168,7 @@
 .tutorprofiledetailsecondtext4{
     border: var(--measure);
     font-size: 14px;
+    display: flex;
 }
 
 .tutorprofiledetailsecondhead5{
@@ -175,7 +176,7 @@
     font-size: 20px;
     font-weight: bold;
     text-align: start;
-    color: green;
+    color: #D4101C;
     margin-top: 10px;
     margin-bottom: 5px;
 }
@@ -199,4 +200,34 @@ li {
 .tutorprofiledetailsecondvideoview{
     border: var(--measure);
     margin: 2px;
+}
+
+.coursecontent{
+    display: flex;
+    flex-direction: row;
+    border: var(--measure);
+}
+
+.coursecontentcol{
+    border: var(--measure);
+    margin: 50px;
+}
+
+.coursecontentrow{
+    border: var(--measure);
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.coursecontentrowtitle{
+    border: var(--measure);
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+.coursecontentrowtext{
+    border: var(--measure);
 }

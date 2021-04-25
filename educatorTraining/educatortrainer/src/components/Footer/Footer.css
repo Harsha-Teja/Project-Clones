@@ -30,7 +30,6 @@
     width: 80%;
     margin: auto;
     margin-top: 20px;
-    /* margin-bottom: 5px; */
     font-size: 13px;
     border: var(--measure);
     /* height: 250px; */
@@ -148,7 +147,7 @@ footer {
   .wave {
     animation: wave 3s linear;
     animation-iteration-count:infinite;
-    fill: green;
+    fill: #D4101C;
     opacity:.1; 
   }
 

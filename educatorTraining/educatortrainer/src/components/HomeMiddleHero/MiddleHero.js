@@ -11,7 +11,7 @@ function MiddleHero (){
                     How it works
                 </div>
                 <div className="cards-firstcolumn-header">
-                    Find your tutors in 20 seconds
+                    Choose the module you want to study, earn certificate then get placed from our partners.
                 </div>
                 <div className="cards-firstcolumn-text"> 
                     Note that the development build is not optimized.

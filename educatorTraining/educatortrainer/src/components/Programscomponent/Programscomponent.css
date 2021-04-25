@@ -10,11 +10,24 @@ cards-whyht-row-cardtext
 cards-whyht-rowtwo
 cards-whyht-rowtwo-card
  */
+   .programnavbarli {
+      list-style-type: none;
+   }
+  
+  .program-nav-link{
+      text-decoration: none;
+      color: black;
+  }
+
+  .program-nav-link:hover{
+   color: #f10313ad;
+}
 
  .cards-whyht{
     border: var(--measure);
     width: 100%;
-    margin: 30px;
+    max-width: 80%;
+    /* background-color: grey; */
  }
 
  .cards-whyht-title{
@@ -29,12 +42,11 @@ cards-whyht-rowtwo-card
     border: var(--measure);
     display: flex;
     flex-direction: row;
-    margin-left: 15%;
+    margin: auto;
  }
 
  .cards-whyht-rowone{
     border: var(--measure);
-    margin: 20px; 
  }
 
  .cards-whyht-rowone-card{
@@ -81,35 +93,18 @@ cards-whyht-rowtwo-card
     font-size: 12px;
 }
 
- .cards-whyht-rowtwo{
+.trainer-cards-rows{
     border: var(--measure);
-    margin: 20px; 
-    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
 }
-
- .cards-whyht-rowtwo-card{
-    border: var(--measure);
-    border: 2px solid whitesmoke;
-    border-radius: 15px;
-    width: 230px;
-    margin-bottom: 25px;
-    padding: 25px;
-    box-shadow: 24px 18px 11px -5px rgba(0,0,0,0.3);
- } 
-
- .cards-whyht-rowtwo-card:hover{
-   z-index: 1;
-   box-shadow: 0 8px 50px rgba(#000, 0.2);
-   transform: scale(1.05);
-   transition: box-shadow 0.2s ease,
-               transform 0.2s ease,
-               z-index 0s 0s ease;
- }
 
  .tutorprofile-card-text{
    border: var(--measure);
    max-width: 230px;
    width: 100%;
+   /* background-color: grey; */
  }
 
  .tutorprofile-card-lists{

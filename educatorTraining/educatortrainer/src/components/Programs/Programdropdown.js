@@ -39,47 +39,56 @@ function Programdropdown() {
         <div
           className={toggleState === 1 ? "content  active-content" : "content"}
         >
-            <ul className="nav-links">
-                <div className="cards-whyht">
-                    <div className="cards-rows">
-                        <li className="navbarli">
+            <ul className="programdown-nav-links">
+                <div className="programdown-cards-whyht">
+                    <div className="programdown-cards-rows">
+                        <li className="programdownnavbarli">
                             <NavLink 
                                 exact={true}
                                 to="/experttutors" 
-                                className="nav-link" 
+                                className="programdown-nav-link" 
                             >
-                                <div className="cards-whyht-rowone">
-                                    <div className="cards-whyht-rowone-card">
-                                        <i className="fas fa-money-check-alt cards-whyht-row-cardicon"></i>
-                                        <div className="cards-whyht-row-cardtitle-type"> Certificate</div>
-                                        <div className="cards-whyht-row-cardtitle"> Expert tutors</div>
-                                        <div className="cards-whyht-row-cardtext"> Note that the development build is not optimized.
+                              <div className="programdown-cards">
+                                    <div className="programdown-card">
+                                        <i className="fas fa-money-check-alt programdown-cards-cardicon"></i>
+                                        <div className="programdown-cards-cardtitle"> Vocational Courses</div>
+                                        <div className="programdown-cards-cardtext"> Note that the development build is not optimized.
                                             To create a production build, use npm run build.</div>
                                 </div>
-                            </div>
+                              </div>
                             </NavLink>
                         </li>
-                        <li>
-                            <div className="cards-whyht-rowtwo">
-                                <div className="cards-whyht-rowtwo-card">
-                                    <i className="fas fa-money-check-alt cards-whyht-row-cardicon"></i>
-                                    <div className="cards-whyht-row-cardtitle-type"> Short Course</div>
-                                    <div className="cards-whyht-row-cardtitle"> Expert tutors</div>
-                                    <div className="cards-whyht-row-cardtext"> Note that the development build is not optimized.
-                                        To create a production build, use npm run build.</div>
+                        <li className="programdownnavbarli">
+                            <NavLink 
+                                exact={true}
+                                to="/experttutors" 
+                                className="programdown-nav-link" 
+                            >
+                              <div className="programdown-cards">
+                                    <div className="programdown-card">
+                                        <i className="fas fa-money-check-alt programdown-cards-cardicon"></i>
+                                        <div className="programdown-cards-cardtitle"> Lesson Design</div>
+                                        <div className="programdown-cards-cardtext"> Note that the development build is not optimized.
+                                            To create a production build, use npm run build.</div>
                                 </div>
-                            </div>
+                              </div>
+                            </NavLink>
                         </li>
-                        <li>
-                            <div className="cards-whyht-rowtwo">
-                                <div className="cards-whyht-rowtwo-card">
-                                    <i className="fas fa-money-check-alt cards-whyht-row-cardicon"></i>
-                                    <div className="cards-whyht-row-cardtitle-type"> Program Module</div>
-                                    <div className="cards-whyht-row-cardtitle"> Expert tutors</div>
-                                    <div className="cards-whyht-row-cardtext"> Note that the development build is not optimized.
-                                        To create a production build, use npm run build.</div>
+                        <li className="programdownnavbarli">
+                            <NavLink 
+                                exact={true}
+                                to="/experttutors" 
+                                className="programdown-nav-link" 
+                            >
+                              <div className="programdown-cards">
+                                    <div className="programdown-card">
+                                        <i className="fas fa-money-check-alt programdown-cards-cardicon"></i>
+                                        <div className="programdown-cards-cardtitle"> Teaching Methodologies</div>
+                                        <div className="programdown-cards-cardtext"> Note that the development build is not optimized.
+                                            To create a production build, use npm run build.</div>
                                 </div>
-                            </div>
+                              </div>
+                            </NavLink>
                         </li>
                     </div>
                 </div>
@@ -89,74 +98,121 @@ function Programdropdown() {
         <div
           className={toggleState === 2 ? "content  active-content" : "content"}
         >
-          <div className="cards-whyht">
-                <div className="cards-rows">
-                    <div className="cards-whyht-rowone">
-                        <div className="cards-whyht-rowone-card">
-                            <i className="fas fa-money-check-alt cards-whyht-row-cardicon"></i>
-                            <div className="cards-whyht-row-cardtitle-type"> Certificate</div>
-                            <div className="cards-whyht-row-cardtitle"> Expert tutors</div>
-                            <div className="cards-whyht-row-cardtext"> Note that the development build is not optimized.
-                                To create a production build, use npm run build.</div>
-                        </div>
-                    </div>
-                    <div className="cards-whyht-rowtwo">
-                        <div className="cards-whyht-rowtwo-card">
-                            <i className="fas fa-money-check-alt cards-whyht-row-cardicon"></i>
-                            <div className="cards-whyht-row-cardtitle-type"> Short Course</div>
-                            <div className="cards-whyht-row-cardtitle"> Expert tutors</div>
-                            <div className="cards-whyht-row-cardtext"> Note that the development build is not optimized.
-                                To create a production build, use npm run build.</div>
-                        </div>
-                    </div>
-                    <div className="cards-whyht-rowtwo">
-                        <div className="cards-whyht-rowtwo-card">
-                            <i className="fas fa-money-check-alt cards-whyht-row-cardicon"></i>
-                            <div className="cards-whyht-row-cardtitle-type"> Program Module</div>
-                            <div className="cards-whyht-row-cardtitle"> Expert tutors</div>
-                            <div className="cards-whyht-row-cardtext"> Note that the development build is not optimized.
-                                To create a production build, use npm run build.</div>
-                        </div>
+          <ul className="programdown-nav-links">
+                <div className="programdown-cards-whyht">
+                    <div className="programdown-cards-rows">
+                        <li className="programdownnavbarli">
+                            <NavLink 
+                                exact={true}
+                                to="/experttutors" 
+                                className="programdown-nav-link" 
+                            >
+                              <div className="programdown-cards">
+                                    <div className="programdown-card">
+                                        <i className="fas fa-money-check-alt programdown-cards-cardicon"></i>
+                                        <div className="programdown-cards-cardtitle"> Behaviour Management</div>
+                                        <div className="programdown-cards-cardtext"> Note that the development build is not optimized.
+                                            To create a production build, use npm run build.</div>
+                                </div>
+                              </div>
+                            </NavLink>
+                        </li>
+                        <li className="programdownnavbarli">
+                            <NavLink 
+                                exact={true}
+                                to="/experttutors" 
+                                className="programdown-nav-link" 
+                            >
+                              <div className="programdown-cards">
+                                    <div className="programdown-card">
+                                        <i className="fas fa-money-check-alt programdown-cards-cardicon"></i>
+                                        <div className="programdown-cards-cardtitle"> Classroom Discipline</div>
+                                        <div className="programdown-cards-cardtext"> Note that the development build is not optimized.
+                                            To create a production build, use npm run build.</div>
+                                </div>
+                              </div>
+                            </NavLink>
+                        </li>
+                        <li className="programdownnavbarli">
+                            <NavLink 
+                                exact={true}
+                                to="/experttutors" 
+                                className="programdown-nav-link" 
+                            >
+                              <div className="programdown-cards">
+                                    <div className="programdown-card">
+                                        <i className="fas fa-money-check-alt programdown-cards-cardicon"></i>
+                                        <div className="programdown-cards-cardtitle"> Computer Assisted Learning</div>
+                                        <div className="programdown-cards-cardtext"> Note that the development build is not optimized.
+                                            To create a production build, use npm run build.</div>
+                                </div>
+                              </div>
+                            </NavLink>
+                        </li>
                     </div>
                 </div>
-            </div>
+            </ul>
         </div>
 
         {/* Third one  */}
         <div
           className={toggleState === 3 ? "content  active-content" : "content"}
         >
-          <div className="cards-whyht">
-                <div className="cards-rows">
-                    <div className="cards-whyht-rowone">
-                        <div className="cards-whyht-rowone-card">
-                            <i className="fas fa-money-check-alt cards-whyht-row-cardicon"></i>
-                            <div className="cards-whyht-row-cardtitle-type"> Certificate</div>
-                            <div className="cards-whyht-row-cardtitle"> Expert tutors</div>
-                            <div className="cards-whyht-row-cardtext"> Note that the development build is not optimized.
-                                To create a production build, use npm run build.</div>
-                        </div>
-                    </div>
-                    <div className="cards-whyht-rowtwo">
-                        <div className="cards-whyht-rowtwo-card">
-                            <i className="fas fa-money-check-alt cards-whyht-row-cardicon"></i>
-                            <div className="cards-whyht-row-cardtitle-type"> Short Course</div>
-                            <div className="cards-whyht-row-cardtitle"> Expert tutors</div>
-                            <div className="cards-whyht-row-cardtext"> Note that the development build is not optimized.
-                                To create a production build, use npm run build.</div>
-                        </div>
-                    </div>
-                    <div className="cards-whyht-rowtwo">
-                        <div className="cards-whyht-rowtwo-card">
-                            <i className="fas fa-money-check-alt cards-whyht-row-cardicon"></i>
-                            <div className="cards-whyht-row-cardtitle-type"> Program Module</div>
-                            <div className="cards-whyht-row-cardtitle"> Expert tutors</div>
-                            <div className="cards-whyht-row-cardtext"> Note that the development build is not optimized.
-                                To create a production build, use npm run build.</div>
-                        </div>
+            <ul className="programdown-nav-links">
+                <div className="programdown-cards-whyht">
+                    <div className="programdown-cards-rows">
+                        <li className="programdownnavbarli">
+                            <NavLink 
+                                exact={true}
+                                to="/experttutors" 
+                                className="programdown-nav-link" 
+                            >
+                              <div className="programdown-cards">
+                                    <div className="programdown-card">
+                                        <i className="fas fa-money-check-alt programdown-cards-cardicon"></i>
+                                        <div className="programdown-cards-cardtitle"> Adult Education
+</div>
+                                        <div className="programdown-cards-cardtext"> Note that the development build is not optimized.
+                                            To create a production build, use npm run build.</div>
+                                </div>
+                              </div>
+                            </NavLink>
+                        </li>
+                        <li className="programdownnavbarli">
+                            <NavLink 
+                                exact={true}
+                                to="/experttutors" 
+                                className="programdown-nav-link" 
+                            >
+                              <div className="programdown-cards">
+                                    <div className="programdown-card">
+                                        <i className="fas fa-money-check-alt programdown-cards-cardicon"></i>
+                                        <div className="programdown-cards-cardtitle"> Continuous and Comprehensive Evaluation</div>
+                                        <div className="programdown-cards-cardtext"> Note that the development build is not optimized.
+                                            To create a production build, use npm run build.</div>
+                                </div>
+                              </div>
+                            </NavLink>
+                        </li>
+                        <li className="programdownnavbarli">
+                            <NavLink 
+                                exact={true}
+                                to="/experttutors" 
+                                className="programdown-nav-link" 
+                            >
+                              <div className="programdown-cards">
+                                    <div className="programdown-card">
+                                        <i className="fas fa-money-check-alt programdown-cards-cardicon"></i>
+                                        <div className="programdown-cards-cardtitle"> Community Learning</div>
+                                        <div className="programdown-cards-cardtext"> Note that the development build is not optimized.
+                                            To create a production build, use npm run build.</div>
+                                </div>
+                              </div>
+                            </NavLink>
+                        </li>
                     </div>
                 </div>
-            </div>
+            </ul>
         </div>
       </div>
     </div>
