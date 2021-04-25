@@ -4,9 +4,10 @@ import Modal from 'react-modal'
 import { useFormik } from 'formik'
 import emailjs from "emailjs-com"
 import demo from "../../assets/svg/enquiry.svg"
+import {NavLink} from "react-router-dom";
 
 Modal.setAppElement('#root')
-function ReverseHero ({ReverseHeroImage, ReverseHeroTitle, ReverseHeroText, ReverseHeroButton1}) {
+function ReverseHero ({ReverseHeroImage, ReverseHeroTitle, ReverseHeroText, ReverseHeroButton1, ReverseHeroButton2}) {
     const [modalIsOpen, setModalIsOpen] = useState(false)
     const validate = values => {
         const errors = {}
@@ -83,6 +84,13 @@ function ReverseHero ({ReverseHeroImage, ReverseHeroTitle, ReverseHeroText, Reve
                         <div className="hero-content-title">{ReverseHeroTitle} </div>
                         <div className="hero-content-text">{ReverseHeroText}</div>
                         <div className="hero-content-button">
+                        <NavLink 
+                        exact={true}
+                        to="/Programs" 
+                        className="program-nav-link" 
+                        >
+                          <button className="hero-content-button-1">{ReverseHeroButton2}</button>
+                        </NavLink>   
                         <button className="hero-content-button-1" onClick={() => setModalIsOpen(true)}>{ReverseHeroButton1}</button>
                         <Modal
                             isOpen={modalIsOpen}

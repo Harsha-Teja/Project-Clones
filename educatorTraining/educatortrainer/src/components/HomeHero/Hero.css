@@ -39,7 +39,7 @@ img{
 
 .hero-illustration{
     border: var(--measure);
-    margin-left: 15%;
+    margin-left: 5%;
 }
 
 .hero-content{
@@ -49,7 +49,7 @@ img{
 
 .hero-content-container{
     border: var(--measure);
-    margin-top: 25%;
+    margin-top: 20%;
 }
 
 .hero-content-title {
@@ -77,6 +77,7 @@ img{
     padding: 10px;
     border-radius: 20px;
     cursor: pointer;
+    margin-left: 10px;
 }
 
 .hero-content-button-2{

@@ -1,6 +1,7 @@
 .carousle-full{
     border: var(--measure);
     margin: auto;
+    margin-top: 10px;
     margin-bottom: 40px;
     width: 100%;
     max-width: 70%;
@@ -23,6 +24,8 @@
     border: var(--measure);
     margin-left: 20px;
     margin-right: 20px;
+    width: 50px;
+    height: 50px;
 }
 
 .carousle-text{
@@ -32,8 +35,8 @@
 }
 
 .carousle-img{
-    height: 100px;
-    width: 200px;
+    height: 70px;
+    width: 90px;
     display: block;
     margin: auto;
 }

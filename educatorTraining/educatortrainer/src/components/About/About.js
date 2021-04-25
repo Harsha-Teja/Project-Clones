@@ -7,6 +7,7 @@ import support from "../../assets/svg/support.svg";
 import collab from "../../assets/svg/collab.svg";
 import teacherr from "../../assets/teacherr.png";
 import {Accordion, Card, Button} from "react-bootstrap";
+import "../HomeMiddleHero/MiddleHero.css"
 
 
 
@@ -107,7 +108,6 @@ function About () {
         </div>
 
         {/* In collaboration */}
-
         <div className="collab">
         <div className="collabtwo">
             <div className="collabtitle"> In Collaboration with </div>
@@ -120,6 +120,7 @@ function About () {
             <img src={collab} alt="collaboration" className="collabimgone" />
         </div>
         </div>
+        
         {/* FAQ section here */}
         <Accordion defaultActiveKey="0" className="accordian">
             <h1 className="aboutusfaq">FAQ's</h1>
@@ -145,81 +146,81 @@ function About () {
             </Card>
             <Card>
                 <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="1">
+                <Accordion.Toggle as={Button} variant="link" eventKey="2">
                     Does it charge money ?
                 </Accordion.Toggle>
                 </Card.Header>
-                <Accordion.Collapse eventKey="1">
+                <Accordion.Collapse eventKey="2">
                 <Card.Body>Yes, it does money. The money depends on the type of course you select!</Card.Body>
                 </Accordion.Collapse>
             </Card>
             <Card>
                 <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="1">
+                <Accordion.Toggle as={Button} variant="link" eventKey="3">
                     Does it charge money ?
                 </Accordion.Toggle>
                 </Card.Header>
-                <Accordion.Collapse eventKey="1">
+                <Accordion.Collapse eventKey="3">
                 <Card.Body>Yes, it does money. The money depends on the type of course you select!</Card.Body>
                 </Accordion.Collapse>
             </Card>
             <Card>
                 <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="1">
+                <Accordion.Toggle as={Button} variant="link" eventKey="4">
                     Does it charge money ?
                 </Accordion.Toggle>
                 </Card.Header>
-                <Accordion.Collapse eventKey="1">
+                <Accordion.Collapse eventKey="4">
                 <Card.Body>Yes, it does money. The money depends on the type of course you select!</Card.Body>
                 </Accordion.Collapse>
             </Card>
             <Card>
                 <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="1">
+                <Accordion.Toggle as={Button} variant="link" eventKey="5">
                     Does it charge money ?
                 </Accordion.Toggle>
                 </Card.Header>
-                <Accordion.Collapse eventKey="1">
+                <Accordion.Collapse eventKey="5">
                 <Card.Body>Yes, it does money. The money depends on the type of course you select!</Card.Body>
                 </Accordion.Collapse>
             </Card>
             <Card>
                 <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="1">
+                <Accordion.Toggle as={Button} variant="link" eventKey="6">
                     Does it charge money ?
                 </Accordion.Toggle>
                 </Card.Header>
-                <Accordion.Collapse eventKey="1">
+                <Accordion.Collapse eventKey="6">
                 <Card.Body>Yes, it does money. The money depends on the type of course you select!</Card.Body>
                 </Accordion.Collapse>
             </Card>
             <Card>
                 <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="1">
+                <Accordion.Toggle as={Button} variant="link" eventKey="7">
                     Does it charge money ?
                 </Accordion.Toggle>
                 </Card.Header>
-                <Accordion.Collapse eventKey="1">
+                <Accordion.Collapse eventKey="7">
                 <Card.Body>Yes, it does money. The money depends on the type of course you select!</Card.Body>
                 </Accordion.Collapse>
             </Card>
             <Card>
                 <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="1">
+                <Accordion.Toggle as={Button} variant="link" eventKey="8">
                     Does it charge money ?
                 </Accordion.Toggle>
                 </Card.Header>
-                <Accordion.Collapse eventKey="1">
+                <Accordion.Collapse eventKey="8">
                 <Card.Body>Yes, it does money. The money depends on the type of course you select!</Card.Body>
                 </Accordion.Collapse>
             </Card>
             <Card>
                 <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="1">
+                <Accordion.Toggle as={Button} variant="link" eventKey="9">
                     Does it charge money ?
                 </Accordion.Toggle>
                 </Card.Header>
-                <Accordion.Collapse eventKey="1">
+                <Accordion.Collapse eventKey="9">
                 <Card.Body>Yes, it does money. The money depends on the type of course you select!</Card.Body>
                 </Accordion.Collapse>
             </Card>

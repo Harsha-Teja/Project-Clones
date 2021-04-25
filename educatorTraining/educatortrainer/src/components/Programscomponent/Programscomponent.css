@@ -21,13 +21,13 @@ cards-whyht-rowtwo-card
 
   .program-nav-link:hover{
    color: #f10313ad;
+   text-decoration: none;
 }
 
  .cards-whyht{
     border: var(--measure);
     width: 100%;
     max-width: 80%;
-    /* background-color: grey; */
  }
 
  .cards-whyht-title{

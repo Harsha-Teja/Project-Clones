@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import image from "../../assets/nsrcellogo.png"
 import "./Carousle.css"
 
-function CarouselContainerTestimonials() {
+function CarouselContainerTestimonials({contentfirst, contentsecond, contentthird, contentfour, contentfive, contentsix}) {
     const settings = {
       dots: true,
       infinite: true,
@@ -22,27 +22,23 @@ function CarouselContainerTestimonials() {
         <Slider {...settings}>
           <div className="carousletwo-image">
             <img src={image} alt="first" className="carousle-img"/>
-            <p className="carousle-text">"I found the course to be very effective and highly suitable for any teacher who is looking ot grow in their field"</p>
+            <p className="carousle-text">{contentfirst}</p>
           </div>
           <div className="carousletwo-image">
             <img src={image} alt="first" className="carousle-img"/>
-            <p className="carousle-text">"I found the course to be very effective and highly suitable for any teacher who is looking ot grow in their field"</p>
+            <p className="carousle-text">{contentsecond}</p>
           </div>
           <div className="carousletwo-image">
             <img src={image} alt="first" className="carousle-img"/>
-            <p className="carousle-text">"I found the course to be very effective and highly suitable for any teacher who is looking ot grow in their field"</p>
+            <p className="carousle-text">{contentthird}</p>
           </div>
           <div className="carousletwo-image">
             <img src={image} alt="first" className="carousle-img"/>
-            <p className="carousle-text">"I found the course to be very effective and highly suitable for any teacher who is looking ot grow in their field"</p>
+            <p className="carousle-text">{contentsecond}</p>
           </div>
           <div className="carousletwo-image">
             <img src={image} alt="first" className="carousle-img"/>
-            <p className="carousle-text">"I found the course to be very effective and highly suitable for any teacher who is looking ot grow in their field"</p>
-          </div>
-          <div className="carousletwo-image">
-            <img src={image} alt="first" className="carousle-img"/>
-            <p className="carousle-text">"I found the course to be very effective and highly suitable for any teacher who is looking ot grow in their field"</p>
+            <p className="carousle-text">{contentthird}</p>
           </div>
         </Slider>
       </div>

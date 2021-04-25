@@ -1,9 +1,10 @@
 import React from "react"
 import "./Programs.css"
 import Hero from "../HomeHero/Hero"
-import heroillustration from "../../assets/svg/Teaching.svg";
-import DemoForm from "../Home/DemoForm";
+import heroillustration from "../../assets/svg/personal.svg";
 import Programdropdown from "./Programdropdown"
+import ReverseHero from "../HomeHero/ReverseHero"
+import PersonalForm from "./PersonalForm";
 
 
 function Programs(){
@@ -13,7 +14,10 @@ function Programs(){
                             To create a production build, use npm run build.Note that the development build is not optimized.
                             To create a production build, use npm run build."/>
             <Programdropdown />
-            <DemoForm />
+            <ReverseHero ReverseHeroImage= {heroillustration} ReverseHeroTitle="Let us help you shape your career with our experienced educators" ReverseHeroText="Note that the development build is not optimized.
+                            To create a production build, use npm run build.Note that the development build is not optimized.
+                            To create a production build, use npm run build."/>
+            <PersonalForm />
         </div>
     )
 }
