@@ -1,0 +1,145 @@
+/*  classes
+    becometutoroverall 
+    becometutorpic
+    becometutorimg
+
+    */
+    
+.becometutoroverall {
+    border: var(--measure);
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.becometutorpic{
+    border: var(--measure);
+}
+    
+.becometutorimg{
+    border: var(--measure);
+    width: 500px;
+    height: 500px;
+}
+
+
+.becometutorform{
+    border: var(--measure);
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.01);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.becometutorcontainer{
+    border: var(--measure);
+    display: flex;
+    flex-direction: column;
+}
+
+.becometutorformtitle{  
+    border: var(--measure);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+    
+.becometutornamelabel{
+    border: var(--measure);
+    font-size: 14px;
+    font-weight: 600;
+    width: 60px;
+}
+    
+.becometutornameinput{
+    border: var(--measure);
+    border: 1px solid green;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    background: transparent;
+    
+}
+    
+.becometutoremaillabel{
+    border: var(--measure);
+    font-size: 14px;
+    font-weight: 600;
+}
+    
+.becometutoremailinput{
+    border: var(--measure);
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    border: 1px solid green;
+    background: transparent;
+}
+    
+.becometutorphonelabel{
+    border: var(--measure);
+    font-size: 14px;
+    font-weight: 600;
+}
+    
+.becometutorphoneinput{
+    border: var(--measure);
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    border: 1px solid green;
+    background: transparent;
+}
+    
+.becometutormessagelabel{
+    border: var(--measure);
+    font-size: 14px;
+    font-weight: 600;
+}
+    
+.becometutormessageinput{
+    border: var(--measure);
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    border: 1px solid green;
+    background: transparent;
+}
+    
+.becometutorbutton{
+    border: 2px solid green;
+    border-radius: 20px;
+    background: transparent;
+    padding: 7px;
+    width: 100px;
+    margin-left: 100px;
+}
+
+.becometutorbutton:hover{
+    background: green;
+    color: white;
+    cursor: pointer;
+}
+
+.error{
+    border: var(--measure);
+    color: red;
+    /* width: 100px; */
+    font-size: 12px;
+    font-weight: 600;
+    margin: auto;
+    margin-bottom: 5px;
+}

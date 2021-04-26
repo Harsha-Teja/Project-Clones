@@ -1,0 +1,161 @@
+/* Classname
+    demoform
+    demoformpic
+    demoformimg
+    contactform
+    contactformcontainer
+    contactformtitle
+    contactnamelabel
+    contactnameinput
+    contactemaillabel
+    contactmailinput
+    contactphonelabel
+    contactphoneinput
+    contactmessagelabel
+    contactmessageinput
+    contactbutton
+    error
+*/
+
+.demoformfull{
+    border: var(--measure);
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.demoformpic{
+    border: var(--measure);
+    margin-left: 30px ;
+}
+    
+.demoformimg{
+    border: var(--measure);
+    width: 400px;
+    height: 400px;
+}
+
+.demoform{
+    border: var(--measure);
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.01);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.demoformcontainer{
+    border: var(--measure);
+    display: flex;
+    flex-direction: column;
+}
+
+.demoformtitle{  
+    border: var(--measure);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+    
+.demonamelabel{
+    border: var(--measure);
+    font-size: 14px;
+    font-weight: 600;
+    width: 60px;
+}
+    
+.demonameinput{
+    display: block;
+    border: var(--measure);
+    border: 1px green solid;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+    
+.demoemaillabel{
+    border: var(--measure);
+    font-size: 14px;
+    font-weight: 600;
+}
+    
+.demoemailinput{
+    border: var(--measure);
+    width: 100%;
+    display: block;
+    max-width: 300px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    border: 1px green solid;
+}
+    
+.demophonelabel{
+    border: var(--measure);
+    font-size: 14px;
+    font-weight: 600;
+}
+    
+.demophoneinput{
+    border: var(--measure);
+    display: block;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    border: 1px green solid;
+}
+    
+.demomessagelabel{
+    border: var(--measure);
+    font-size: 14px;
+    font-weight: 600;
+}
+    
+.demomessageinput{
+    border: var(--measure);
+    display: block;
+    max-width: 300px;
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+    
+.demobutton{
+    border: 2px solid green;
+    width: 100px;
+    margin-left: 100px;
+    background: transparent;
+    border-radius: 20px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.demobutton:hover{
+    background: green;
+    color: white;
+}
+
+.error{
+    border: var(--measure);
+    color: red;
+    /* width: 100px; */
+    font-size: 12px;
+    font-weight: 600;
+    margin: auto;
+    margin-bottom: 5px;
+}

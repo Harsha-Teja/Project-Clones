@@ -1,0 +1,180 @@
+* {
+    /* --measure: solid 1px magenta; */
+}
+
+/* Classes
+    navbar
+    logo
+    nav-links
+    button
+    button-text
+    burger
+    
+
+*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+/* Above 1430 Screen Size */
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+
+.navbarli {
+    list-style-type: none;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    border: var(--measure);
+}
+
+.logo{
+    margin-left: 10%;
+    width: 180px;
+    height: 180px;
+    border: var(--measure);
+}
+
+.navbar .button-text{
+    border: 2px solid white;
+    width: 100%;
+    max-width: 300px;
+    margin-left: 0px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: transparent ;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+.navbar .button-text1{
+    border: 2px solid white;
+    width: 100%;
+    color: white;
+    max-width: 300px;
+    margin-left: 0px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background: green;
+    cursor: pointer;
+}
+
+.navbar .button-text:hover{
+    background-color:green ;
+    color: white;
+}
+
+/* .button-text{
+    text-decoration: none;
+    color: green;
+}    */
+
+.navbar .nav-links{
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    border: var(--measure);
+}
+
+.navbar .nav-links .nav-link{
+    font-size: 14px;
+    font-weight: 600;
+    border: var(--measure);
+    text-transform: uppercase;
+    color: black;
+}
+
+.navbar .nav-links .nav-link:hover{
+    border-bottom: 2px solid green;
+    transition: 0.2s ease-in-out;
+}
+
+.navbar .burger{
+    font-size: 30px;
+    display: none;
+    border: var(--measure);
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+/* Below 1435 Screen Size */
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+@media all and (max-width: 1435px){
+
+    .navbar {
+        max-height: 12vh;
+        align-items: center;
+        border: var(--measure);
+    }
+
+    .navbar .logo{
+        margin-left: 2%;
+        width: 130px;
+        height: 130px;
+        border: var(--measure);
+    
+    }
+
+    .navbar .button{
+        border: var(--measure);
+        margin-left: 10%;
+        padding: 5px;
+        background-color: var(--background-color);
+        text-align: center;
+    }
+    
+    .navbar .nav-links{
+        margin-right: 5%;
+        width: 70%;
+        border: var(--measure);
+    }
+    
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+/* For mobile version: screen size below 945 */
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+@media all and (max-width: 945px){
+/*     
+    .navbar .logo{
+        margin-left: 0px;
+    } */
+
+    .navbar .burger{
+        display: block;
+        margin-right: 10%;
+        cursor: pointer;
+        border: var(--measure);
+    }
+
+        .navbar .nav-links{
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        background: var(--primary-color);
+        padding: 40px;
+        width: 70%;
+        transform: translate(-800px);
+        transition: 0.2s linear;
+        border: var(--measure);
+        z-index: 1000;
+    }
+
+    .navbar .nav-links .navbarli {
+        padding: 15px;
+        border-bottom: 1px solid #fff;
+        border: var(--measure);
+    }
+
+    .navbar .button{
+        margin-top: 100px;
+    }
+}

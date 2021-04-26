@@ -1,0 +1,87 @@
+{ "TutorList": [
+    {
+    "id": "1",
+    "name": "harsha",
+    "subject": ["science", "maths", "hindi", "english", "sanskrit", "GRE", "GMAT"],
+    "TutorProfileList1": "5 years experience",
+    "TutorProfileList2": "M.ed Degree Holder",
+    "TutorProfileList3": "National Award Winner",
+    "TutorProfileList4": "Trained 4000+ students",
+    "TutorProfileOverview": "Note that the development build is not optimized. To create a production build, use npm run build.Note that the development build is not optimized.To create a production build, use npm run build.",
+    "TutorProfileYOE": ["5 years in primary teahcing", "4 years in a private tution center", "2 years in online teaching", "1 year in one-one personal coaching on GRE / GMAT" ],
+    "TutorProfileEducation": ["B.Ed from Osmania University", "Inter from Chaitanya college", "Schooling from Kendriya Vidyalaya"],
+    "TutorProfileVerified":["Background Verification on Id Proofs", "Background Verification on Educational Degrees", "Passed Skill Assessments"],
+    "TutorProfileAccolades": ["Runner up in Indian Nation Teachers Award", "Special Teacher award from Telagana State", "Supper Innovator Award from Teacherr"]
+    },
+    {
+    "id": "2",
+    "name": "Harshit",
+    "subject": ["French", "maths", "hindi", "english", "sanskrit", "GRE", "GMAT"],
+    "TutorProfileList1": "5 years experience",
+    "TutorProfileList2": "M.ed Degree Holder",
+    "TutorProfileList3": "National Award Winner",
+    "TutorProfileList4": "Trained 4000+ students",
+    "TutorProfileOverview": "Note that the development build is not optimized. To create a production build, use npm run build.Note that the development build is not optimized.To create a production build, use npm run build.",
+    "TutorProfileYOE": ["5 years in primary teahcing", "4 years in a private tution center", "2 years in online teaching", "1 year in one-one personal coaching on GRE / GMAT" ],
+    "TutorProfileEducation": ["B.Ed from Osmania University", "Inter from Chaitanya college", "Schooling from Kendriya Vidyalaya"],
+    "TutorProfileVerified":["Background Verification on Id Proofs", "Background Verification on Educational Degrees", "Passed Skill Assessments"],
+    "TutorProfileAccolades": ["Runner up in Indian Nation Teachers Award", "Special Teacher award from Telagana State", "Supper Innovator Award from Teacherr"]
+    },
+    {
+    "id": "3",
+    "name": "Chandu",
+    "subject": ["German", "maths", "hindi", "english", "sanskrit", "GRE", "GMAT"],
+    "TutorProfileList1": "5 years experience",
+    "TutorProfileList2": "M.ed Degree Holder",
+    "TutorProfileList3": "National Award Winner",
+    "TutorProfileList4": "Trained 4000+ students",
+    "TutorProfileOverview": "Note that the development build is not optimized. To create a production build, use npm run build.Note that the development build is not optimized.To create a production build, use npm run build.",
+    "TutorProfileYOE": ["5 years in primary teahcing", "4 years in a private tution center", "2 years in online teaching", "1 year in one-one personal coaching on GRE / GMAT" ],
+    "TutorProfileEducation": ["B.Ed from Osmania University", "Inter from Chaitanya college", "Schooling from Kendriya Vidyalaya"],
+    "TutorProfileVerified":["Background Verification on Id Proofs", "Background Verification on Educational Degrees", "Passed Skill Assessments"],
+    "TutorProfileAccolades": ["Runner up in Indian Nation Teachers Award", "Special Teacher award from Telagana State", "Supper Innovator Award from Teacherr"]
+    },
+    {
+    "id": "4",
+    "name": "Varun",
+    "subject": ["Italy", "maths", "hindi", "english", "sanskrit", "GRE", "GMAT"],
+    "TutorProfileList1": "5 years experience",
+    "TutorProfileList2": "M.ed Degree Holder",
+    "TutorProfileList3": "National Award Winner",
+    "TutorProfileList4": "Trained 4000+ students",
+    "TutorProfileOverview": "Note that the development build is not optimized. To create a production build, use npm run build.Note that the development build is not optimized.To create a production build, use npm run build.",
+    "TutorProfileYOE": ["5 years in primary teahcing", "4 years in a private tution center", "2 years in online teaching", "1 year in one-one personal coaching on GRE / GMAT" ],
+    "TutorProfileEducation": ["B.Ed from Osmania University", "Inter from Chaitanya college", "Schooling from Kendriya Vidyalaya"],
+    "TutorProfileVerified":["Background Verification on Id Proofs", "Background Verification on Educational Degrees", "Passed Skill Assessments"],
+    "TutorProfileAccolades": ["Runner up in Indian Nation Teachers Award", "Special Teacher award from Telagana State", "Supper Innovator Award from Teacherr"]
+    },
+    {
+    "id": "5",
+    "name": "Yogi",
+    "subject": ["Yoga", "maths", "hindi", "english", "sanskrit", "GRE", "GMAT"],
+    "TutorProfileList1": "5 years experience",
+    "TutorProfileList2": "M.ed Degree Holder",
+    "TutorProfileList3": "National Award Winner",
+    "TutorProfileList4": "Trained 4000+ students",
+    "TutorProfileOverview": "Note that the development build is not optimized. To create a production build, use npm run build.Note that the development build is not optimized.To create a production build, use npm run build.",
+    "TutorProfileYOE": ["5 years in primary teahcing", "4 years in a private tution center", "2 years in online teaching", "1 year in one-one personal coaching on GRE / GMAT" ],
+    "TutorProfileEducation": ["B.Ed from Osmania University", "Inter from Chaitanya college", "Schooling from Kendriya Vidyalaya"],
+    "TutorProfileVerified":["Background Verification on Id Proofs", "Background Verification on Educational Degrees", "Passed Skill Assessments"],
+    "TutorProfileAccolades": ["Runner up in Indian Nation Teachers Award", "Special Teacher award from Telagana State", "Supper Innovator Award from Teacherr"]
+    },
+    {
+    "id": "6",
+    "name": "Sundeep",
+    "subject": ["Coding", "maths", "hindi", "english", "sanskrit", "GRE", "GMAT"],
+    "TutorProfileList1": "5 years experience",
+    "TutorProfileList2": "M.ed Degree Holder",
+    "TutorProfileList3": "National Award Winner",
+    "TutorProfileList4": "Trained 4000+ students",
+    "TutorProfileOverview": "Note that the development build is not optimized. To create a production build, use npm run build.Note that the development build is not optimized.To create a production build, use npm run build.",
+    "TutorProfileYOE": ["5 years in primary teahcing", "4 years in a private tution center", "2 years in online teaching", "1 year in one-one personal coaching on GRE / GMAT" ],
+    "TutorProfileEducation": ["B.Ed from Osmania University", "Inter from Chaitanya college", "Schooling from Kendriya Vidyalaya"],
+    "TutorProfileVerified":["Background Verification on Id Proofs", "Background Verification on Educational Degrees", "Passed Skill Assessments"],
+    "TutorProfileAccolades": ["Runner up in Indian Nation Teachers Award", "Special Teacher award from Telagana State", "Supper Innovator Award from Teacherr"]
+    }
+]
+}

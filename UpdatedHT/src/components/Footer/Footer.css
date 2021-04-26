@@ -1,0 +1,310 @@
+/* classes 
+    footer-container
+    column-one
+    column-two
+    column-three
+    column-four
+    footer-title
+    col-text
+    col-text-four
+    footer-logo
+    icons
+    bottom-mentions
+*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+/* Above 1430 Screen Size */
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+.footeroverall{
+    display: block;
+    /* height: 100px; */
+}
+
+
+.footer-container{
+    display: flex;
+    /* bottom: 0px; */
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    /* margin-bottom: 5px; */
+    font-size: 13px;
+    border: var(--measure);
+    /* height: 250px; */
+    
+}
+
+.footer-logo {
+    width: 120px;
+    height: 120px;
+    border: var(--measure);
+    font-size: 100px;
+    cursor: pointer;
+}
+
+.footer-logo img {
+    width: 100%;
+    height: auto;
+}
+
+.footer-title {
+    text-transform: uppercase;
+    border: var(--measure);
+    margin-bottom: 30px;
+}
+
+.footer-container ul li {
+    margin-bottom: 5px;
+    border: var(--measure);
+}
+
+.col-text{
+    color: var(--primary-color);
+    border: var(--measure);
+    text-decoration: none;
+    list-style: none;
+}
+
+.col-text-four{
+    margin-bottom: 5px;
+    color: var(--primary-color);
+    border: var(--measure);
+}
+
+.icons{
+    border: var(--measure);
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.column-one{
+    /* width: 100%; */
+    max-width: 400px;
+    margin-left: 30px;
+    margin-right: 50px;
+    border: var(--measure);
+}
+
+.column-two{
+    width: 100%;
+    max-width: 200px;
+    margin-left: 30px;
+    margin-right: 50px;
+    text-align: center;
+    border: var(--measure);
+}
+
+.column-three{
+    width: 100%;
+    max-width: 200px;
+    margin-left: 30px;
+    margin-right: 50px;
+    text-align: center;
+    border: var(--measure);
+}
+
+.column-four{
+    width: 100%;
+    max-width: 500px;
+    margin-left: 30px;
+    text-align: center;
+    margin-right: 50px;
+    border: var(--measure);
+}
+
+small{
+    margin-left: 20%;
+    border: var(--measure);
+    text-align: center;
+}
+
+.bottom-mentions {
+    margin: auto;
+    text-align: start;
+    font-size: 10px;
+}
+
+/* Footer Animation */
+
+footer {
+    border: var(--measure);
+    width:100vw;
+    opacity: 0.7;
+    position: absolute;
+    z-index: -10;
+  }
+
+  svg {
+    border: var(--measure);
+    width:100%;
+    opacity:1; 
+  }
+
+  .wave {
+    animation: wave 3s linear;
+    animation-iteration-count:infinite;
+    fill: green;
+    opacity:.1; 
+  }
+
+  .drop {
+    fill: transparent;
+    animation: drop 5s ease infinite normal;
+    stroke: #e62f2f;
+    stroke-width:0.5;
+    opacity:1; 
+    transform: translateY(80%);
+  }
+
+  .drop1 {
+    transform-origin: 10px 3px;
+  }
+
+  .drop2 {
+    animation-delay: 3s;
+    animation-duration:3s;
+    transform-origin: 25px 3px;
+  }
+
+  .drop3 {
+    animation-delay: -2s;
+    animation-duration:3.4s;
+    transform-origin: 16px 3px;
+  }
+
+  #wave2 {
+    animation-duration:5s;
+    animation-direction: reverse;
+    opacity:.3;
+  }
+
+  #wave3 {
+    animation-duration: 7s;
+    opacity:.3;
+  }
+
+  @keyframes drop {
+    0% {
+      transform: translateY(80%); 
+      opacity:.4; 
+    }
+    80% {
+      transform: translateY(80%); 
+      opacity:.4; 
+    }
+    90% { 
+      transform: translateY(10%) ; 
+      opacity:.4; 
+    }
+    100% { 
+      transform: translateY(0%) scale(1.5);  
+      stroke-width:0.4;
+      opacity:0; 
+    }
+  }
+  @keyframes wave {
+    to {transform: translateX(-100%);}
+  }
+  @keyframes ball {
+    to {transform: translateY(20%);}
+  }
+  
+  
+
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+/* Below 1420 Screen Size */
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+@media all and (max-width: 1420px) {
+    .column-four{
+        margin-right: 10%;
+    }
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+/* Below 1330 Screen Size */
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+@media all and (max-width: 1330px) {
+    
+    .footer-title {
+        font-size: 10px;
+    }
+    
+    .col-text{
+        margin-bottom: 8px;
+        font-size: 9px;
+    }
+    
+    .col-text-four{
+        margin-bottom: 8px;
+        font-size: 9px;
+    }
+    
+    .icons{
+        margin-right: 10px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .column-four{
+        margin-right: 10%;
+    }
+    
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+/* Below 660 Screen Size */
+/*--------------------------------------------------------------------------------------------------------------------------------- */
+@media all and (max-width: 660px) {
+    .footer-container {
+        display: flex;   
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-title {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    
+    
+    .col-text{
+        margin-bottom: 8px;
+        font-size: 9px;
+    }
+    
+    .col-text-four{
+        margin-bottom: 8px;
+        font-size: 9px;
+    }
+    
+    .icons{
+        margin-right: 10px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    
+    .bottom-mentions {
+        margin-right: 25%;
+        text-align: center;
+        font-size: 6px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 400px;
+        
+    }
+
+    .column-one{
+        text-align: center;
+    }
+
+    .column-four{
+        max-width: 320px;
+        margin-right: 60px;
+    }
+
+}
