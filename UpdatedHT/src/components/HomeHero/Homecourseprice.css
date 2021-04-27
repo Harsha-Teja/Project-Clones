@@ -1,0 +1,152 @@
+/* 
+homecourseprice
+homecoursepricetitle
+homecoursepricetext
+homecoursepricesubtext
+homecoursepricecontainer
+homecoursepricewrapper
+homecoursepricewrappertitle
+homecoursepricewrappertitletext
+homecoursepricewrappersubtext
+homecoursepricewrappercourse
+homecoursepricewrappercoursetitle
+homecoursepricewrappercoursetext
+homecoursepricewrappercost
+homecoursepricewrappercostoriginal
+homecoursepricewrappercostoriginalone
+homecoursepricewrappercostoriginaltwo
+homecoursepricewrappercostshow
+homecoursepricewrapperbutton
+*/
+
+.homecourseprice{
+    border: var(--measure);
+    width: 100%;
+    background-color: #f5fafe;
+    padding: 40px;
+}
+
+.homecoursepricetitle{
+    border: var(--measure);
+}
+
+.homecoursepricetext{
+    border: var(--measure);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.homecoursepricesubtext{
+    border: var(--measure);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.homecoursepricecontainer{
+    border: var(--measure);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.homecoursepricewrapper{
+    border: var(--measure);
+    width: 100%;
+    margin-top: 50px;
+    max-width:300px;
+    background-color: white;
+    border-radius: 20px;
+    height: 400px;
+    box-shadow: 24px 18px 11px -5px rgba(0,0,0,0.15);
+}
+
+.homecoursepricewrappertitle{
+    border: var(--measure);
+    padding: 10px 40px;
+    margin-bottom: 5px;
+    background-color: lightsalmon;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: black;
+}
+
+.homecoursepricewrappertitletext{
+    border: var(--measure);
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.homecoursepricewrappersubtext{
+    border: var(--measure);
+    font-size: 14px;
+}
+
+.homecoursepricewrappercourse{
+    border: var(--measure);
+    padding: 35px;
+}
+
+.homecoursepricewrappercoursetitle{
+    border: var(--measure);
+    font-size: 16px;
+    font-weight: bold;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.homecoursepricewrappercoursetext{
+    border: var(--measure);
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.homecoursepricewrappercost{
+    border: var(--measure);
+    padding: 20px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+.homecoursepricewrappercostoriginal{
+    border: var(--measure);
+    margin-left: 15px;
+}
+
+.homecoursepricewrappercostoriginalone{
+    border: var(--measure);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.homecoursepricewrappercostoriginaltwo{
+    border: var(--measure);
+    font-weight: bold;
+    font-size: 12px;
+    color: lightsalmon;
+}
+
+.homecoursepricewrappercostshow{
+    border: var(--measure);
+    margin-left: 20%;
+    font-size: 14px;
+    text-decoration-line: line-through;
+}
+
+.homecoursepricewrapperbutton{
+    border: var(--measure);
+    margin-top: 20px;
+    margin-left: 70px;
+    position: absolute;
+    background-color: lightsalmon;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    padding: 7px 14px;
+    cursor: pointer;
+}

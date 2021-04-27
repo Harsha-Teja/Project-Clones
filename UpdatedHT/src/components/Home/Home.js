@@ -3,8 +3,8 @@ import "./Home.css"
 import Hero from "../HomeHero/Hero"
 import Homecenter from "../HomeHero/Homecenter"
 import Homeapproach from "../HomeHero/Homeapproach"
-import MiddleHero from "../HomeMiddleHero/MiddleHero"
-import HomeWhyComponent from "../HomeWhyComponent/HomeWhyComponent"
+import Homecoursecard from "../HomeHero/Homecoursecard"
+import Homecourseprice from "../HomeHero/Homecourseprice"
 import DemoForm from "./DemoForm";
 
 
@@ -19,8 +19,8 @@ function Home(){
                     herolast={"*Limited Seats"}/>
             <Homecenter />
             <Homeapproach />
-            <MiddleHero />
-            <HomeWhyComponent />
+            <Homecoursecard />
+            <Homecourseprice />
             <DemoForm />
         </div>
     )
