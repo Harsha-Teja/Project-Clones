@@ -86,4 +86,5 @@ herocoursecardwrapperbutton
     color: white;
     font-weight: bold;
     padding: 7px 14px;
+    cursor: pointer;
 }

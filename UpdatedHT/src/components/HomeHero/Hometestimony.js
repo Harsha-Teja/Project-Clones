@@ -2,7 +2,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import React from "react";
 import Slider from "react-slick";
-import image from "../../Assets/images/teacherr.png"
+import image from "../../Assets/images/HouseTutoring.png"
 import "./Hometestimony.css"
 
 function CarouselContainerTestimonials({contentfirst, contentsecond, contentthird, contentfour, contentfive, contentsix}) {

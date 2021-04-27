@@ -1,5 +1,6 @@
 import React from "react";
 import "./Homecoursecard.css"
+import {NavLink} from "react-router-dom";
 
 function Homecoursecard () {
     return(
@@ -18,7 +19,12 @@ function Homecoursecard () {
                             <li className="herocoursecardwrapperitem">✏️ Meditation and Inner enigneering</li>
                             <li className="herocoursecardwrapperitem">✏️ Leadership building</li>
                         </ol>
+                        <NavLink to="/findmetutor" className="nav-link" activeStyle={{
+                            borderBottom: "2px solid green",
+                            }}>
                         <div className="herocoursecardwrapperbutton">Explore curriculum</div>
+                    </NavLink>
+                        
                     </div>
                     <div className="herocoursecardwrapper">
                         <div className="herocoursecardwrappertitle">Math Champ Camp</div>
@@ -30,7 +36,11 @@ function Homecoursecard () {
                             <li className="herocoursecardwrapperitem">✏️ Strong mathematical foundation</li>
                             <li className="herocoursecardwrapperitem">✏️ Analytical Thinking skills</li>
                         </ol>
+                        <NavLink to="/findmetutor" className="nav-link" activeStyle={{
+                            borderBottom: "2px solid green",
+                            }}>
                         <div className="herocoursecardwrapperbutton">Explore curriculum</div>
+                        </NavLink>
                     </div>
                     <div className="herocoursecardwrapper">
                         <div className="herocoursecardwrappertitle">Communcation Mastery</div>
@@ -42,7 +52,11 @@ function Homecoursecard () {
                             <li className="herocoursecardwrapperitem">✏️ Accurate Grammar</li>
                             <li className="herocoursecardwrapperitem">✏️ Active Listening </li>
                         </ol>
+                        <NavLink to="/findmetutor" className="nav-link" activeStyle={{
+                            borderBottom: "2px solid green",
+                            }}>
                         <div className="herocoursecardwrapperbutton">Explore curriculum</div>
+                        </NavLink>
                     </div>
                 </div>
             </div>

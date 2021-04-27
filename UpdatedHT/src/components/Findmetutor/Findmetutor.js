@@ -1,18 +1,17 @@
 import React from "react"
 import {Link} from "react-router-dom";
 import "./Findmetutor.css"
-import Hero from "../HomeHero/Hero"
+import ReverseHero from "../HomeHero/ReverseHero"
 import subject from "../../Assets/svg/SubjectsSvg/subject.svg"
 
 function Findmetutor (){
     return (
         <div>
-            <Hero title={"Explore the best tutors from our platform"} text={"Note that the development build is not optimized. To createa \
-                                                                          production build, use npm run build.Note that the development \
-                                                                          build is not optimized. To create a production build, use npm run\
-                                                                        build."}
-                                                                        />
-            
+            <ReverseHero   
+                    title1={"Check out our extensive list of courses"} 
+                    text={"We cover from architecture to zoology, if you don't find the course you want let us know we will add it soon"} 
+                    heroimage={subject}
+                    />
                 < Cards />
             
         </div>
@@ -24,6 +23,7 @@ export default Findmetutor
 function Cards () {
     return (
         <>
+        <div className="findmetutorentire">
         <div className="findmetutors-title"> Courses </div>
         <div className="findmetutors-container">
                 {/* Card component 1*/}
@@ -122,9 +122,10 @@ function Cards () {
                     </div>  
                 </Link>    
                 </div>
-                
+                </div>
             </div>
         </>
+        
         
     )
 }

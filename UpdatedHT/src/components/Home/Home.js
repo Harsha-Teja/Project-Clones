@@ -7,6 +7,7 @@ import Homecoursecard from "../HomeHero/Homecoursecard"
 import Homecourseprice from "../HomeHero/Homecourseprice"
 import Hometestimony from "../HomeHero/Hometestimony"
 import DemoForm from "./DemoForm";
+import heroillustration from "../../Assets/svg/homepagepic1.jpg";
 
 
 function Home(){
@@ -17,7 +18,8 @@ function Home(){
                     title3={"One on One Learning."} 
                     text={"Specilist Tutors for k-12 and Beyond"}
                     button1 ={"Book a Free Trial"}
-                    herolast={"*Limited Seats"}/>
+                    herolast={"*Limited Seats"}
+                    heroimage={heroillustration}/>
             <Homecenter />
             <Homeapproach />
             <Homecoursecard />

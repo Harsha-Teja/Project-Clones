@@ -4,112 +4,134 @@
     supportimg
 */
 
-.support{
+/* 
+aboutuswhocontainer
+aboutuswhocontainer1
+aboutuswhocontainer1box1
+aboutuswhocontainer1box2
+aboutuswhocontainer2
+aboutuswhocontainer2img
+*/
+
+.aboutuswhocontainer{
+    border: var(--measure);
+    background-color: #f5fafe;
+    padding: 40px;
+}
+
+.aboutuswhocontainer1{
     border: var(--measure);
     display: flex;
-    width: 70%;
+    flex-direction: row;
+    margin-top: 90px;
+    justify-content: space-between;
+}
+
+.aboutuswhocontainer1box1{
+    border: var(--measure);
+    width: 100%;
+    max-width: 40%;
+}
+
+.aboutuswhocontainer1box1text{
+    border: var(--measure);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.aboutuswhocontainer1box2{
+    border: var(--measure);
+    width: 100%;
+    max-width: 50%;
+}
+
+.aboutuswhocontainer1box2text{
+    border: var(--measure);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.aboutuswhocontainer2{
+    border: var(--measure);
+    width: 100%;
+    max-width: 50%;
     margin: auto;
+    margin-top: 100px;
 }
 
-
-.supportimgone{
+.aboutuswhocontainer2img{
     border: var(--measure);
-    width: 300px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
 }
 
-.supportimg{
+/* 
+aboutimpactcontainer
+aboutimpactcontainertitle
+aboutimpactcontainertitletext
+aboutimpactcontainerstat
+aboutimpactcontainerstat1
+aboutimpactcontainerstat1stat
+aboutimpactcontainerstat1text
+*/
+
+.aboutimpactcontainer{
     border: var(--measure);
-    width: 190px;
-    height: 80px;
-    background: rgba(0, 0, 0, 0.01);
-    border-radius: 20px;
-    padding: 10px;
+    background-color: #f5fafe;
+    padding: 40px;
 }
 
-.oursupports{
+.aboutimpactcontainertitle{
     border: var(--measure);
-    width: 50%;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 90px;
+
+}
+
+.aboutimpactcontainertitletext{
+    border: var(--measure);
+}
+
+.aboutimpactcontainerstat{
+    border: var(--measure);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 80%;
     margin: auto;
-    margin-bottom: 30px;
-    background: rgba(0, 0, 0, 0.02);
-    border-radius: 20px;
+    margin-bottom: 100px;
 }
 
-.oursupportstitle{
+.aboutimpactcontainerstat1{
+    border: var(--measure);
+}
+
+.aboutimpactcontainerstat1stat{
+    border: var(--measure);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.aboutimpactcontainerstat1text{
+    border: var(--measure);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.aboutcontactform{
+    border: var(--measure);
+    background-color: #f5fafe;
+    padding: 40px;
+}
+
+.aboutcontactformtext{
     border: var(--measure);
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 10px;
-}
-
-.oursupportslogos{
-    border: var(--measure);
-    width: 35%;
-    margin: auto;
-    /* display: flex; */
-    /* margin-left: 150px; */
-}
-
-.oursupportslogo{
-    border: var(--measure);
-}
-
-.oursupportslogo h6 {
-    font-size: 12px;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-/* Collaboration */
-
-.collab{
-    border: var(--measure);
-    width: 60%;
-    margin: auto;
-    display: flex;
-    margin-top: 30px;
-}
-
-.collabpic{
-    border: var(--measure);
-}
-
-.collabimgone{
-    border: var(--measure);
-    width: 300px;
-    height: 300px;
-}
-
-.collabtwo{
-    border: var(--measure);
-    width: 40%;
-    margin: auto;
-}
-
-.collabtitle{
-    border: var(--measure);
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.collablogo{
-    border: var(--measure);
-    margin-left: 80px;
-}
-
-.collabteacherrlogo{
-    border: var(--measure);
-    width: 190px;
-    height: 80px;
-}
-
-.teacherr{
-    font-size: 24px;
-    font-weight: bold;
-    margin-left: 40px;
-    text-decoration: none;
-    color: #D40F1C;
 }

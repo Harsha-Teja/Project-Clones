@@ -93,3 +93,57 @@ img{
     font-weight: 500;
 
 }
+
+.reversehero{
+    border: var(--measure);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    background-color: #f5fafe;
+}
+
+.reversehero-content{
+    border: var(--measure);
+    width: 100%;
+    max-width: 40%;
+}
+
+.reversehero-content-container{
+    border: var(--measure);
+    margin-top: 25%;
+}
+
+.reversehero-illustration{
+    border: var(--measure);
+    margin-left: 10%;
+}
+
+.reversehero-content-title1{
+    border: var(--measure);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: start;
+}
+
+.reversehero-content-title2{
+    border: var(--measure);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: start;
+}
+
+.reversehero-content-title3{
+    border: var(--measure);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: start;
+}
+
+.reversehero-content-text{
+    border: var(--measure);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: start;
+}

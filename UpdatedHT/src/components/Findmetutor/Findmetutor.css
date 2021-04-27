@@ -19,6 +19,11 @@
         margin-left: 9px;
     }
     
+    .findmetutorentire{
+        background-color: #f5fafe;
+        padding: 30px;
+    }
+    
     .findmetutors-container{
         border: var(--measure);
         width: 80%;

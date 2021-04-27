@@ -10,11 +10,13 @@ function TutorProfile(){
     return (
         <>
             <div>
-                <ReverseHero ReverseHeroImage={heroillustration} ReverseHeroTitle="Find most skilled tutors from our platform" 
-                            ReverseHeroText="We have a repeat() function which will help us to not write 1fr 1fr 1fr three times rather 
-                                                we can write repeat(3, 1fr) simply.
-                                                We have two main functions called auto-fit and auto-fill."/>
+            <ReverseHero   
+                    title1={"Look at our super educators from across the globe"} 
+                    text={"Our educators are one of the best in the field and have many accolades from many prestigious organisations"} 
+                    heroimage={heroillustration}
+                    />
             </div>
+            <div className="fulltutorprofile">
             <div className="tutorprofile-title"> Tutor's Profile </div>
             <div className="tutorprofile-cards-container">
             
@@ -32,6 +34,7 @@ function TutorProfile(){
                     )
                 })
                 }
+            </div>
             </div>
         </>
     )
@@ -66,41 +69,3 @@ function Card ({TutorProfileImage, TutorProfileTitleName, TutorProfileTitleSubje
         </>
     )
 }
-
-
-
-            /* <Card  TutorProfileImage={image} 
-                   TutorProfileTitleName="harsha" 
-                   TutorProfileTitleSubject="Science" 
-                   TutorProfileList1="5 years experience" 
-                   TutorProfileList2="M.ed Degree Holder" 
-                   TutorProfileList3="National Award Winner" 
-                   TutorProfileList4="Trained 4000+ students"/>
-            <Card  TutorProfileImage={image} 
-                   TutorProfileTitleName="Varun" 
-                   TutorProfileTitleSubject="Maths" 
-                   TutorProfileList1="5 years experience" 
-                   TutorProfileList2="M.ed Degree Holder" 
-                   TutorProfileList3="National Award Winner" 
-                   TutorProfileList4="Trained 4000+ students"/>
-            <Card  TutorProfileImage={image} 
-                   TutorProfileTitleName="Harshit" 
-                   TutorProfileTitleSubject="Hindi" 
-                   TutorProfileList1="5 years experience" 
-                   TutorProfileList2="M.ed Degree Holder" 
-                   TutorProfileList3="National Award Winner" 
-                   TutorProfileList4="Trained 4000+ students"/>
-            <Card  TutorProfileImage={image} 
-                   TutorProfileTitleName="Yogi" 
-                   TutorProfileTitleSubject="Yoga"
-                   TutorProfileList1="5 years experience" 
-                   TutorProfileList2="M.ed Degree Holder" 
-                   TutorProfileList3="National Award Winner" 
-                   TutorProfileList4="Trained 4000+ students"/>
-            <Card  TutorProfileImage={image} 
-                   TutorProfileTitleName="Ram" 
-                   TutorProfileTitleSubject="English" 
-                   TutorProfileList1="5 years experience" 
-                   TutorProfileList2="M.ed Degree Holder" 
-                   TutorProfileList3="National Award Winner" 
-                   TutorProfileList4="Trained 4000+ students"/> */
