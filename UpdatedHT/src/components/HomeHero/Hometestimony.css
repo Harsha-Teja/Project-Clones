@@ -1,0 +1,66 @@
+.carousle-full{
+    border: var(--measure);
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 70%;
+}
+
+.corousleblock{
+    background-color: #f5fafe;
+    padding: 40px;
+}
+
+.carousleimagecard{
+    border: var(--measure);
+    background-color: white;
+    border-radius: 30px;
+    width: 100%;
+    padding: 10px;
+    max-width: 500px;
+    box-shadow: 24px 18px 11px -5px rgba(0,0,0,0.15);
+    margin-bottom: 20px;
+}
+
+.carousleimg{
+    border: var(--measure);
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.carousletext{
+    border: var(--measure);
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 20px;
+}
+
+
+.carousletitle{
+    font-size: 40px;
+    border: var(--measure);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.carousleimagecardpart{
+    border: var(--measure);
+    display: flex;
+}
+
+.carousleauthor{
+    border: var(--measure);
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}

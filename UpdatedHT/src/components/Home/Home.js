@@ -5,6 +5,7 @@ import Homecenter from "../HomeHero/Homecenter"
 import Homeapproach from "../HomeHero/Homeapproach"
 import Homecoursecard from "../HomeHero/Homecoursecard"
 import Homecourseprice from "../HomeHero/Homecourseprice"
+import Hometestimony from "../HomeHero/Hometestimony"
 import DemoForm from "./DemoForm";
 
 
@@ -21,6 +22,7 @@ function Home(){
             <Homeapproach />
             <Homecoursecard />
             <Homecourseprice />
+            <Hometestimony />
             <DemoForm />
         </div>
     )
