@@ -1,8 +1,8 @@
 import React from "react"
 import "./Home.css"
 import Hero from "../HomeHero/Hero"
-import ReverseHero from "../HomeHero/ReverseHero"
-import heroillustration from "../../Assets/svg/hero-illustration-two.svg";
+import Homecenter from "../HomeHero/Homecenter"
+import Homeapproach from "../HomeHero/Homeapproach"
 import MiddleHero from "../HomeMiddleHero/MiddleHero"
 import HomeWhyComponent from "../HomeWhyComponent/HomeWhyComponent"
 import DemoForm from "./DemoForm";
@@ -11,16 +11,14 @@ import DemoForm from "./DemoForm";
 function Home(){
     return(
         <div>
-            <Hero title={"We hand pick the perfect tutor for you"} text={"Note that the development build is not optimized. To createa \
-                                                                          production build, use npm run build.Note that the development \
-                                                                          build is not optimized. To create a production build, use npm run\
-                                                                        build."}
-                                                                        button1 ={"Find a Tutor"}
-                                                                        button2={"Become Tutor"}
-                                                                        />
-            <ReverseHero ReverseHeroImage= {heroillustration} ReverseHeroTitle="We hand pick the perfect tutor for you" ReverseHeroText="Note that the development build is not optimized.
-                            To create a production build, use npm run build.Note that the development build is not optimized.
-                            To create a production build, use npm run build." ReverseHeroButton1="Find a Tutor" ReverseHeroButton2="Become Tutor"/>
+            <Hero   title1={"Personalized."} 
+                    title2={"Focussed."} 
+                    title3={"One on One Learning."} 
+                    text={"Specilist Tutors for k-12 and Beyond"}
+                    button1 ={"Book a Free Trial"}
+                    herolast={"*Limited Seats"}/>
+            <Homecenter />
+            <Homeapproach />
             <MiddleHero />
             <HomeWhyComponent />
             <DemoForm />

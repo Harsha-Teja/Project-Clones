@@ -1,5 +1,5 @@
 * {
-    /* --measure: solid 1px magenta; */
+    --measure: solid 1px magenta;
 }
 
 /* Classes
@@ -31,6 +31,8 @@
     height: 80px;
     align-items: center;
     border: var(--measure);
+    box-shadow: 24px 18px 11px -5px rgba(0,0,0,0.15);
+    margin-bottom: 5px;
 }
 
 .logo{
@@ -42,30 +44,39 @@
 
 .navbar .button-text{
     border: 2px solid white;
+    color: white;
+    font-weight: bold;
     width: 100%;
     max-width: 300px;
     margin-left: 0px;
     padding: 10px;
     border-radius: 20px;
-    background-color: transparent ;
+    background-color: #07957d ;
     border: 2px solid green;
     cursor: pointer;
 }
 
-.navbar .button-text1{
-    border: 2px solid white;
+.button-text1{
+    border: 2px solid #07957d;
     width: 100%;
-    color: white;
     max-width: 300px;
     margin-left: 0px;
     padding: 10px 30px;
     border-radius: 20px;
-    background: green;
+    background: white;
     cursor: pointer;
+    color: #07957d;
+
+    text-decoration: none;
 }
 
 .navbar .button-text:hover{
-    background-color:green ;
+    background-color:white ;
+    color: #07957d;
+}
+
+.navbar .button-text1:hover{
+    background-color:#07957d;
     color: white;
 }
 

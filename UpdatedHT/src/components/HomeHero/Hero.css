@@ -11,26 +11,18 @@ hero-content-button-1
 hero-content-button-2 */
 
 img{
-    width: 400px;
-    height: 400px;
-}
-
-.hero-content-button-1 .hero-content-button-2 {
-    background: transparent;
-    border-radius: 20px;
-    padding: 7px;
-    border-color: green;
+    width: 650px;
+    height: 650px;
 }
 
 .hero {
     border: var(--measure);
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 100%;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 10px;
+    padding: 40px;
+    background-color: #f5fafe;
 }
 
 .hero-illustration{
@@ -40,7 +32,7 @@ img{
 
 .hero-content{
     border: var(--measure);
-    margin-left: 6%;
+    margin-left: 5%;
 }
 
 .hero-content-container{
@@ -50,42 +42,54 @@ img{
 
 .hero-content-title {
     border: var(--measure);
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
-    text-align: center;
+    text-align: start;
 }
 
 .hero-content-text{
     border: var(--measure);
-    font-size: 14px;
-    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: start;
+    font-weight: 600;
 }
 
 .hero-content-button{
     border: var(--measure);
     margin-top: 20px;
-    text-align: center;
+    text-align: start;
 }
 
 .hero-content-button-1{
-    background: transparent;
+    background: #07957d;
     border: 2px solid green;
-    padding: 10px;
-    border-radius: 20px;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    width: 280px;
+    border-radius: 25px;
     cursor: pointer;
 }
 
-.hero-content-button-2{
+/* .hero-content-button-2{
     margin-left: 20px;
     background: transparent;
     border: 2px solid green;
     padding: 10px;
     border-radius: 20px;
     cursor: pointer;
-}
+} */
 
 .hero-content-button-2:hover,  
 .hero-content-button-1:hover{
-    background: green;
-    color: white;
+    background: white;
+    color: #07957d;
+}
+
+.hero-content-last{
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 500;
+
 }

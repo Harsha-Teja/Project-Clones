@@ -15,6 +15,7 @@ function Navbar () {
             </NavLink>
                <ul className="nav-links" style={{transform: isOpen ? "translateX(0px)" : ""}} >
                     <li className="navbarli">
+                        {/* HOME  */}
                     <NavLink 
                         exact={true}
                         to="/" 
@@ -26,21 +27,24 @@ function Navbar () {
                         >
                         Home
                     </NavLink>
+
+                    {/* Curriculum */}
                     </li>
                     <li className="navbarli">
                     <NavLink to="/findmetutor" className="nav-link" onClick={() => setIsOpen(false)} activeStyle={{
                             borderBottom: "2px solid green",
                             }}>
-                        Find me Tutor
+                        Curriculum
                     </NavLink>
                     </li>
-                    <li className="navbarli">
+                    {/* Become Tutor */}
+                    {/* <li className="navbarli">
                     <NavLink to="/becometutor" className="nav-link" onClick={() => setIsOpen(false)} activeStyle={{
                             borderBottom: "2px solid green",
                             }}>
                         Become Tutor
                     </NavLink>
-                    </li>
+                    </li> */}
                     <li className="navbarli">
                     <NavLink to="about" className="nav-link" onClick={() => setIsOpen(false)} activeStyle={{
                             borderBottom: "2px solid green",
@@ -53,8 +57,7 @@ function Navbar () {
                     </div>
                     <div className="button" onClick={() => setIsOpen(false)}>
                         <div className="button-text1"> <a href="#" style={{
-                            textDecoration:"none",
-                            color: "white"
+                            textDecoration:"none"
                             }} >Login</a></div>
                     </div>
                </ul>
